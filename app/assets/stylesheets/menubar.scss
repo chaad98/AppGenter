@@ -1,0 +1,32 @@
+.logo-icon {
+    width: 200px;
+    height: auto;
+    margin-top: -30px;
+    margin-left: 245px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-brand {
+    flex: 1;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 40px;
+    margin-top: -50px;
+    margin-right: 280px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
