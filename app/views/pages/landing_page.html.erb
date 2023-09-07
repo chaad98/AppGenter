@@ -101,10 +101,10 @@
         </div>
         <div class="section3-subchild two">
             <div class="section3-subchild two-text first">
-                <h2>About Us</h2>
+                <p>About Us</p>
             </div>
             <div class="section3-subchild two-text second">
-                <h2>Humanizing and embracing technology, knowledge and innovation for a better way of life.</h2>
+                <p>Humanizing and embracing technology, knowledge and innovation for a better way of life.</p>
             </div>
             <div class="section3-subchild two-text third">
                 <p>Synergistix Global is incorporated and designed to provide businesses with competitive edge by supporting access to business 
@@ -116,7 +116,7 @@
     </div>
 </div>
 
-<div class="flex-container">
+<div class="section4-container">
     <div class="flex-child magenta">
         <div class="flex-subchild first">
             Let's Create a <span class="highlight">SMART</span> Community Together
@@ -127,5 +127,75 @@
     </div>
     <div class="flex-child green">
         <%= image_tag "appgenter.png", class: "flex-icon" %>
+    </div>
+</div>
+
+<div class="section5-container">
+    <div class="flex-child magenta">
+        <div class="flex-subchild first">
+            Let's Create a <span class="highlight">SMART</span> Community Together
+        </div>
+        <div class="flex-subchild second">
+            Digitalizing Business everywhere to adapt to this modern world. Guaranteed Increased in Sales by attracting a wider crowd.
+        </div>
+    </div>
+    <div class="flex-child green">
+        <%= image_tag "appgenter.png", class: "flex-icon" %>
+    </div>
+</div>
+
+<div class="section6-container">
+    <div class="section6-child one">
+        <div class="section6-subchild one">
+            <div class="section6-innerchild one">
+                <p>Let's Get in Touch</p>
+            </div>
+            <div class="section6-innerchild two">
+                <p>We're here to help and always happy to hear from you. Do contact us using the form. </p>
+            </div>
+        </div>
+        <div class="section6-subchild two">
+            <%= form_with model: @contact, local: true do |form| %>
+                <div class="section6-inner two">
+                    <div class="label">
+                        <%= form.label :name, class: "inner-label" %>
+                    </div>
+                    <div class="field">
+                        <%= form.text_field :name, required: true, class: "inner-field" %>
+                    </div>
+                </div>
+
+                <div class="section6-inner two">
+                    <div class="label">
+                        <%= form.label :email, class: "inner-label" %>
+                    </div>
+                    <div class="field">
+                        <%= form.text_field :email, required: true, class: "inner-field" %>
+                    </div>
+                </div>
+
+                <div class="section6-inner two">
+                    <div class="label">
+                        <%= form.label :phone_number, class: "inner-label" %>
+                    </div>
+                    <div class="field">
+                        <%= form.text_field :phone_number, required: true, class: "inner-field" %>
+                    </div>
+                </div>
+
+                <div class="section6-inner two">
+                    <div class="label">
+                        <%= form.label :message, class: "inner-label" %>
+                    </div>
+                    <div class="field">
+                        <%= form.text_area :message, required: true, class: "area-field" %>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <%= form.submit "Send", class: "submit-button" %>
+                </div>
+            <% end %>
+        </div>
     </div>
 </div>
