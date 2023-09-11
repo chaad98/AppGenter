@@ -1,8 +1,12 @@
-.navbar-nav{
-    margin-left: 250px;
+.container {
+    max-width: 100%;
 }
 
-#nav-text{
+.navbar-nav {
+    margin: 0;
+}
+
+#nav-text {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -10,27 +14,30 @@
     color: gray;
 }
 
-.navbar-nav.ml-auto {
-    margin-right: 250px;
+.responsive-navbar {
+    /* Hide the navbar on screens smaller than 992px (lg) */
+    @media (max-width: 991px) {
+        display: none;
+    }
 }
 
-.fas.fa-envelope{
+.fas.fa-envelope {
     color: rgb(11, 11, 194);
     margin-right: 5px;
 }
 
-.fab.fa-facebook{
+.fab.fa-facebook {
     color: #4267B2;
 }
 
-.fab.fa-instagram{
+.fab.fa-instagram {
     color: #E1306C;
 }
 
-.fab.fa-youtube{
+.fab.fa-youtube {
     color: #FF0000;
 }
 
-.fab.fa-linkedin{
+.fab.fa-linkedin {
     color: #0072b1;
 }
