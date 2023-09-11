@@ -2,3 +2,5 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "landing_page"
+import "number"
+import "slide"

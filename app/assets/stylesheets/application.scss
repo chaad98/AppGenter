@@ -19,3 +19,7 @@
  @import "menubar.scss";
  @import "footer.scss";
  @import "contact_us.scss";
+
+body{
+    overflow-x: hidden;
+}

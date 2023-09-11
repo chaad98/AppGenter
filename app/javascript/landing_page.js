@@ -1,3 +1,5 @@
+// landing page for section 2 //
+
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize a variable to keep track of the active accordion
     let activeAccordion = null;
