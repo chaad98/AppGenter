@@ -38,7 +38,7 @@
 }
 
 .contactus-subchild.three{
-    height: 1px;
+    min-height: 1px;
     background-color: #bebebe;
 }
 
@@ -104,4 +104,67 @@
 
 .contactus-link i{
     font-size: 24px;
+}
+
+/* Media Query for screens with max-width 991px (smaller screens) */
+@media screen and (max-width: 991px) {
+    .contactus-container {
+        height: auto; /* Adjust the height as needed */
+        padding: 5% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contactus-child {
+        width: 100%; /* Allow contactus-child to take full width */
+        height: auto;
+    }
+
+    .contactus-subchild.three {
+        height: 1px; /* Set a minimum height to make it visible */
+        background-color: #bebebe;
+    }
+
+    .contactus-subchild.four {
+        height: auto;
+        display: flex;
+        flex-direction: column; /* Stack contactus-innerchild vertically */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactus-innerchild.one,
+    .contactus-innerchild.two,
+    .contactus-innerchild.three {
+        width: 100%; /* Allow contactus-innerchild elements to take full width */
+        margin-left: 0; /* Remove margin-left for full width */
+    }
+
+    #innerchild-right {
+        margin-left: 0; /* Remove margin-left for full width */
+    }
+
+    .innerchild.right-bottom {
+        height: auto; /* Adjust height to auto for responsive height */
+        display: flex;
+        flex-direction: row; /* Stack social links vertically */
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        gap: 20px; /* Adjust the gap between social media links */
+        padding: 10px; /* Add some padding for spacing */
+    }
+
+    .contactus-subchild.one h2,
+    .innerchild h2 {
+        font-size: 30px;
+    }
+
+    .contactus-subchild.two h2,
+    .innerchild p {
+        font-size: 16px;
+    }
+
 }

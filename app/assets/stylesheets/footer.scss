@@ -59,3 +59,56 @@
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
+.footer-info{
+    color: #aaa6a6;
+    text-decoration: none;
+}
+
+/* Media Query for screens with max-width 991px (smaller screens) */
+@media screen and (max-width: 991px) {
+    .footer-container {
+        height: auto;
+        padding: 5% 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap; /* Add this property */
+    }
+
+    .footer-child {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .footer-inner-child-two {
+        margin-left: 0;
+    }
+
+    .bottom-container {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .bottom-child {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Center text for these subchild elements */
+    .footer-subchild.left-two,
+    .footer-subchild.middle-two,
+    .footer-subchild.right-two {
+        text-align: center;
+    }
+
+    /* Set a min-width to prevent overlapping */
+    .footer-child.two {
+        min-width: 120px;
+    }
+}
+
+
