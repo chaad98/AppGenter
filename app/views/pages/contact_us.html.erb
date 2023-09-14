@@ -3,39 +3,39 @@
 <div class="contactus-container">
     <div class="contactus-child one">
         <div class="contactus-subchild one">
-            <h2>Contact Us</h2>
+            <h2><%= t '.top_title' %></h2>
         </div>
         <div class="contactus-subchild two">
-            <h2>Leave us a little info, and we’ll be in touch.</h2>
+            <h2><%= t '.top_desc' %></h2>
         </div>
         <div class="contactus-subchild three">
         </div>
         <div class="contactus-subchild four">
             <div class="contactus-innerchild one">
                 <div class="innerchild left-top">
-                    <h2>Working Hours</h2>
+                    <h2><%= t '.bottom_left_title' %></h2>
                 </div>
                 <div class="innerchild left-bottom">
-                    <p>Monday – Friday
+                    <p><%= t '.bottom_left_desc_one' %>
                     <br>
-                    10 am to 6 pm GMT+8</p>
+                    <span><%= t '.bottom_left_desc_two' %><span></p>
                 </div>
             </div>
             <div class="contactus-innerchild two">
                 <div class="innerchild middle-top">
-                    <h2>Post Address</h2>
+                    <h2><%= t '.bottom_middle_title' %></h2>
                 </div>
                 <div class="innerchild middle-bottom">
-                    <p>Menara Worldwide, Level 24 & 25 198, 
+                    <p><%= t '.bottom_middle_desc_one' %> 
                     <br>
-                    Jln Bukit Bintang, Bukit Bintang, 
+                    <span><%= t '.bottom_middle_desc_two' %></span> 
                     <br>
-                    55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+                    <span><%= t '.bottom_middle_desc_three' %></span></p>
                 </div>
             </div>
             <div class="contactus-innerchild three">
                 <div class="innerchild right-top" id="innerchild-right">
-                    <h2>Social Links</h2>
+                    <h2><%= t '.bottom_right_title' %></h2>
                 </div>
                 <div class="innerchild right-bottom" id="innerchild-right">
                     <a class="contactus-link" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="contactus-subchild five">
-            <h2>Looking Forward To Meet You</h2>
+            <h2><%= t '.c_ending' %></h2>
         </div>
     </div>
 </div>
@@ -54,20 +54,20 @@
     <div class="section6-child one">
         <div class="section6-subchild one">
             <div class="section6-innerchild one">
-                <p>Let's Get in Touch</p>
+                <p><%= t '.section6_title' %></p>
             </div>
             <div class="section6-innerchild two">
-                <p>We're here to help and always happy to hear from you. Do contact us using the form. </p>
+                <p><%= t '.section6_desc' %></p>
             </div>
         </div>
         <div class="section6-subchild two">
-            <%= form_with model: @contact, local: true do |form| %>
+            <%= form_with(model: @enquiry, url: enquiries_path) do |form| %>
                 <div class="section6-inner two">
                     <div class="label">
                         <%= form.label :name, class: "inner-label" %>
                     </div>
                     <div class="field">
-                        <%= form.text_field :name, required: true, class: "inner-field" %>
+                        <%= form.text_field :name, class: "inner-field" %>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@
                         <%= form.label :email, class: "inner-label" %>
                     </div>
                     <div class="field">
-                        <%= form.text_field :email, required: true, class: "inner-field" %>
+                        <%= form.text_field :email, class: "inner-field" %>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
                         <%= form.label :phone_number, class: "inner-label" %>
                     </div>
                     <div class="field">
-                        <%= form.text_field :phone_number, required: true, class: "inner-field" %>
+                        <%= form.text_field :phone_number, class: "inner-field" %>
                     </div>
                 </div>
 
@@ -94,12 +94,12 @@
                         <%= form.label :message, class: "inner-label" %>
                     </div>
                     <div class="field">
-                        <%= form.text_area :message, required: true, class: "area-field" %>
+                        <%= form.text_area :message, class: "area-field" %>
                     </div>
                 </div>
 
                 <div class="actions">
-                    <%= form.submit "Send", class: "submit-button" %>
+                    <%= form.submit t('global.forms.submit'), class: "submit-button" %>
                 </div>
             <% end %>
         </div>

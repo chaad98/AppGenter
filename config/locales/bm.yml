@@ -1,0 +1,86 @@
+bm:
+  locales:
+    en: "English"
+    bm: "Malay"
+    cn: "Chinese"
+  pages:
+    navbar:
+      mail: "info@appgenter.com"
+    menubar:
+      menu_link1: "Aplikasi Genter"
+      menu_link2: "Produk"
+      menu_link3: "Projek"
+      menu_link4: "Hubungi Kami"
+    landing_page:
+      section1_initial_title: "Mari Wujudkan Komuniti"
+      section1_span: "PINTAR"
+      section1_ending_title: "Bersama"
+      section1_desc: "Mengdigitalisasi perniagaan di mana-mana untuk menyesuaikan diri dengan dunia moden ini. Jaminan peningkatan jualan dengan menarik perhatian lebih ramai."
+      section2_bullet1: "Mengimprovisasi, Menyesuaikan, Menangani"
+      section2_text1: "Usaha untuk mengekalkan dan meningkatkan penyelesaian teknologi secara berterusan bagi pelanggan kami, membolehkan mereka bertindak dengan cepat mengikut tuntutan pasaran yang sentiasa berubah."
+      section2_bullet2: "Pelbagai Jenis Produk"
+      section2_text2: "Mulai dari aplikasi hingga pemindai wajah, kami hanya menghasilkan produk berkualiti terbaik yang bukan sahaja berkesan, tetapi juga penyelesaian yang fleksibel. Membantu pelbagai pelanggan berjaya dalam industri mereka."
+      section2_bullet3: "Penyelesaian Tersuai Kelajuan Teratas"
+      section2_text3: "Kemampuan untuk mengenal pasti, merekabentuk, dan melaksanakan penyelesaian tersuai dengan cepat dan tepat, memenuhi objektif pelanggan kami untuk mencapai kelebihan bersaing dalam industri masing-masing."
+      section2_bullet4: "Pelbagai Bidang Kepakaran"
+      section2_text4: "Pengilangan, pendidikan, FMCG, kerajaan, penghantaran dan logistik, Minyak dan Gas, pembangunan harta dan bahan binaan, automotif, hiburan, dan banyak lagi selama 250 tahun yang padu."
+      section2_bullet5: "Projek dan Pembangunan Perniagaan"
+      section2_text5: "Membina penyelesaian yang menyampaikan teknologi, pengetahuan, dan inovasi yang humanis dan merangkul untuk kebaikan."
+      section2_bullet6: "Tenaga kerja yang Dinamik, Agresif, dan Dedikasi"
+      section2_text6: "Pengurusan pekerja dengan penjadualan perubahan, kerja lebih masa, dan pengaturan cuti umum, penyesuaian mengikut polisi Sumber Manusia ke dalam sistem untuk sesuai dengan pelbagai keadaan."
+      section3_about: "Tentang Kami"
+      section3_title: "Menghumanisasi dan merangkul teknologi, pengetahuan, dan inovasi untuk cara hidup yang lebih baik."
+      section3_desc: "TwentyEight IT Solutions telah ditubuhkan dan direka untuk menyediakan kelebihan bersaing kepada perniagaan dengan menyokong akses kepada maklumat perniagaan, dengan profesional teratas dalam Kecerdasan Buatan (AI), Internet of Things (IoT), dan Big Data dalam Fintech dan Teknologi Mudah Alih. Penyelesaian Aplikasi Genter kami terdiri daripada metodologi perniagaan yang terbukti untuk membolehkan perniagaan tetap berhubung ketika seluruh dunia berada dalam tempoh Penjarakan Sosial dan Tanpa Sentuhan."
+      section4_product: "Produk-Produk Kami"
+      section4_title: "Mendigitalisasi Perniagaan Anda Bersama Kami"
+      section5_clients: "Pelanggan di Seluruh Dunia"
+      section5_sales: "Jualan Meningkat"
+      section5_countries: "Negara"
+      section6_title: "Mari Berhubung"
+      section6_desc: "Kami di sini untuk membantu dan sentiasa gembira mendengar dari anda. Sila hubungi kami menggunakan borang."
+    contact_us:
+      top_title: "Hubungi Kami"
+      top_desc: "Berikan kami sedikit maklumat, dan kami akan menghubungi anda"
+      bottom_left_title: "Waktu Kerja"
+      bottom_left_desc_one: "Isnin  – Jumaat"
+      bottom_left_desc_two: "9 pagi hingga 6 petang GMT+8"
+      bottom_middle_title: "Alamat Surat"
+      bottom_middle_desc_one: "Menara Worldwide, Level 24 & 25 198,"
+      bottom_middle_desc_two: "Jln Bukit Bintang, Bukit Bintang,"
+      bottom_middle_desc_three: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
+      bottom_right_title: "Pautan Sosial"
+      c_ending: "Menantikan untuk berjumpa dengan anda"
+      section6_title: "Mari Berhubung"
+      section6_desc: "Kami di sini untuk membantu dan sentiasa gembira mendengar dari anda. Sila hubungi kami menggunakan borang."
+    footer:
+      footer_left_heading: "TwentyEight IT Solutions Sdn Bhd."
+      footer_left_desc_one: "Menara Worldwide, Level 24 & 25 198, Jln Bukit Bintang,"
+      footer_left_desc_two: "Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
+      footer_middle_heading: "Pautan Pantas"
+      footer_middle_desc1: "Aplikasi Genter"
+      footer_middle_desc2: "Produk"
+      footer_right_heading: "Pertanyaan Berkaitan Kerja"
+      footer_right_desc: "info@appgenter.com"
+      footer_copyright: "© Hak Cipta 2023 | TwentyEight IT Solutions Sdn Bhd"
+  activerecord:
+    attributes:
+      enquiry:
+        name: "Nama"
+        email: "Emel"
+        phone_number: "Nombor Telefon"
+        message: "Mesej"
+    errors:
+      models:
+        enquiry:
+          attributes:
+            name:
+              blank: "Sila berikan satu nama"
+            email:
+              blank: "Sila berikan alamat emel"
+            phone_number:
+              blank: "Sila berikan nombor telefon"
+            message:
+              blank: "Sila berikan maklum balas"
+  global:
+    forms:
+      submit: "Hantar"

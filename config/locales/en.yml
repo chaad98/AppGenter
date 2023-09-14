@@ -30,4 +30,88 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  locales:
+    en: "English"
+    bm: "Malay"
+    cn: "Chinese"
+  pages:
+    navbar:
+      mail: "info@appgenter.com"
+    menubar:
+      menu_link1: "AppGenter"
+      menu_link2: "Products"
+      menu_link3: "Projects"
+      menu_link4: "Contact Us"
+    landing_page:
+      section1_initial_title: "Let's Create a"
+      section1_span: "SMART"
+      section1_ending_title: "Community Together"
+      section1_desc: "Digitalizing Business everywhere to adapt to this modern world. Guaranteed Increased in Sales by attracting a wider crowd."
+      section2_bullet1: "Improvise, Adapt, Overcome"
+      section2_text1: "Effort to maintain and improve technology solutions continually for our customers, enabling them to react quickly to ever-changing market demands."
+      section2_bullet2: "Wide Range of Products"
+      section2_text2: "Ranging from apps to face scanners, we only produce top quality products that proves to not only be effective, but also flexible solutions. Helping a wide range of clients thrive in their industries."
+      section2_bullet3: "Top Speed Customized Solutions"
+      section2_text3: "Ability to identify, design and deploy customized solutions with pace and precision, meeting our customers' objective in achieving competitive advantage in their respective industries."
+      section2_bullet4: "Diverse Areas of Expertise"
+      section2_text4: "Manufacturing, education, FMCG, government, shipping and logistics, Oil and Gas, property development and building materials, automotive, entertainments and many more for a cohered 250 years."
+      section2_bullet5: "Projects and Business Development"
+      section2_text5: "Building solution that deliver humanizing and embracing technology, knowledge and innovation for a better."
+      section2_bullet6: "Dynamic Aggressive and Dedicated Workforce"
+      section2_text6: "Management of personnel with shift, overtime and public holiday settings, customization upon HR policy into system to fit in various circumstances."
+      section3_about: "About Us"
+      section3_title: "Humanizing and embracing technology, knowledge and innovation for a better way of life."
+      section3_desc: "TwentyEight IT Solutions is incorporated and designed to provide businesses with competitive edge by supporting access to business information, with the top professionals in Artificial Intelligence (AI), Internet of Things (IoT), and Big Data in Fintech and Mobile Technologies. Our AppGenter solutions comprises of proven business methodologies for businesses to remain in contact while the whole world is in the period of Social Distancing and Contactless."
+      section4_product: "Our Products"
+      section4_title: "Digitalize Your Business With Us"
+      section5_clients: "Clients Worldwide"
+      section5_sales: "Sales Increased"
+      section5_countries: "Countries"
+      section6_title: "Let's Get in Touch"
+      section6_desc: "We're here to help and always happy to hear from you. Do contact us using the form."
+    contact_us:
+      top_title: "Contact Us"
+      top_desc: "Leave us a little info, and we’ll be in touch."
+      bottom_left_title: "Working Hours"
+      bottom_left_desc_one: "Monday – Friday"
+      bottom_left_desc_two: "9 am to 6 pm GMT+8"
+      bottom_middle_title: "Post Address"
+      bottom_middle_desc_one: "Menara Worldwide, Level 24 & 25 198,"
+      bottom_middle_desc_two: "Jln Bukit Bintang, Bukit Bintang,"
+      bottom_middle_desc_three: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
+      bottom_right_title: "Social Links"
+      c_ending: "Looking Forward To Meet You"
+      section6_title: "Let's Get in Touch"
+      section6_desc: "We're here to help and always happy to hear from you. Do contact us using the form."
+    footer:
+      footer_left_heading: "TwentyEight IT Solutions Sdn Bhd."
+      footer_left_desc_one: "Menara Worldwide, Level 24 & 25 198, Jln Bukit Bintang,"
+      footer_left_desc_two: "Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
+      footer_middle_heading: "Quick Links"
+      footer_middle_desc1: "AppGenter"
+      footer_middle_desc2: "Products"
+      footer_right_heading: "Work Enquiries"
+      footer_right_desc: "info@appgenter.com"
+      footer_copyright: "© Copyright 2023 | TwentyEight IT Solutions Sdn Bhd"
+  activerecord:
+    attributes:
+      enquiry:
+        name: "Name"
+        email: "Email"
+        phone_number: "Phone number"
+        message: "Message"
+    errors:
+      models:
+        enquiry:
+          attributes:
+            name:
+              blank: "Please provide a name"
+            email:
+              blank: "Please provide an email address"
+            phone_number:
+              blank: "Please provide a phone number"
+            message:
+              blank: "Please provide some feedback"
+  global:
+    forms:
+      submit: "Send"

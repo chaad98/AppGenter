@@ -1,0 +1,86 @@
+cn:
+  locales:
+    en: "English"
+    bm: "Malay"
+    cn: "Chinese"
+  pages:
+    navbar:
+      mail: "info@appgenter.com"
+    menubar:
+      menu_link1: "应用生成器"
+      menu_link2: "产品"
+      menu_link3: "项目"
+      menu_link4: "联系我们"
+    landing_page:
+      section1_initial_title: "让我们一起创建一个"
+      section1_span: "智慧"
+      section1_ending_title: "社区"
+      section1_desc: "数字化业务，以适应这个现代世界。通过吸引更广泛的人群，保证销售额增加。"
+      section2_bullet1: "改进，适应，克服"
+      section2_text1: "不断努力维护和改进技术解决方案，以使客户能够迅速应对不断变化的市场需求。"
+      section2_bullet2: "广泛的产品范围"
+      section2_text2: "从应用程序到面部扫描仪，我们只生产高质量的产品，这些产品不仅有效，而且是灵活的解决方案。帮助各种各样的客户在其行业中蓬勃发展。"
+      section2_bullet3: "顶级定制解决方案"
+      section2_text3: "具备识别、设计和部署定制解决方案的能力，快速而精确地满足我们客户在其各自行业中获得竞争优势的目标。"
+      section2_bullet4: "多领域专业知识"
+      section2_text4: "制造业，教育，快速消费品，政府，航运和物流，石油和天然气，房地产开发和建筑材料，汽车，娱乐等等，已经有着紧密合作的250年。"
+      section2_bullet5: "项目和业务发展 "
+      section2_text5: "构建解决方案，传递人性化和拥抱技术、知识和创新，以实现更美好的未来。"
+      section2_bullet6: "充满活力、积极进取和专注的员工队伍"
+      section2_text6: "管理人员轮班、加班和公共假期设置，根据人力资源政策进行定制以适应各种情况。"
+      section3_about: "关于我们"
+      section3_title: "以更好的生活方式来人性化和拥抱技术、知识和创新。"
+      section3_desc: "TwentyEight IT Solutions 公司旨在通过支持获取商业信息，并与人工智能（AI）、物联网（IoT）和金融科技和移动技术领域的顶尖专业人员合作，为企业提供竞争优势。我们的 AppGenter 解决方案包括经过验证的业务方法，使企业在整个世界都在社交隔离和无接触时期保持联系。"
+      section4_product: "我们的产品"
+      section4_title: "与我们一起数字化您的业务"
+      section5_clients: "全球客户"
+      section5_sales: "销售增加"
+      section5_countries: "国家"
+      section6_title: "让我们保持联系"
+      section6_desc: "我们在这里提供帮助，非常乐意听到您的声音。请使用表格与我们联系。"
+    contact_us:
+      top_title: "联系我们"
+      top_desc: "留下一些信息，我们会与您联系。"
+      bottom_left_title: "工作时间"
+      bottom_left_desc_one: "星期一至星期五"
+      bottom_left_desc_two: "早上9点至晚上6点，GMT+8时区"
+      bottom_middle_title: "邮寄地址"
+      bottom_middle_desc_one: "Menara Worldwide, Level 24 & 25 198,"
+      bottom_middle_desc_two: "Jln Bukit Bintang, Bukit Bintang,"
+      bottom_middle_desc_three: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
+      bottom_right_title: "社交链接"
+      c_ending: "期待见到你"
+      section6_title: "让我们保持联系"
+      section6_desc: "我们在这里提供帮助，非常乐意听到您的声音。请使用表格与我们联系。"
+    footer:
+      footer_left_heading: "TwentyEight IT Solutions Sdn Bhd."
+      footer_left_desc_one: "Menara Worldwide, Level 24 & 25 198, Jln Bukit Bintang,"
+      footer_left_desc_two: "Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
+      footer_middle_heading: "快速链接"
+      footer_middle_desc1: "应用生成器"
+      footer_middle_desc2: "产品"
+      footer_right_heading: "工作查询"
+      footer_right_desc: "info@appgenter.com"
+      footer_copyright: "© 版权 2023 | TwentyEight IT Solutions Sdn Bhd"
+  activerecord:
+    attributes:
+      enquiry:
+        name: "名字"
+        email: "电子邮件"
+        phone_number: "电话号码"
+        message: "留言"
+    errors:
+      models:
+        enquiry:
+          attributes:
+            name:
+              blank: "请提供一个名字"
+            email:
+              blank: "请提供一个电子邮件地址"
+            phone_number:
+              blank: "请提供一个电话号码"
+            message:
+              blank: "请提供一些反馈意见"
+  global:
+    forms:
+      submit: "发送"
