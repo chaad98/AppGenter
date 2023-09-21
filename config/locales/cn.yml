@@ -1,8 +1,8 @@
 cn:
   locales:
-    en: "English"
-    bm: "Malay"
-    cn: "Chinese"
+    en: "en"
+    bm: "bm"
+    cn: "cn"
   pages:
     navbar:
       mail: "info@appgenter.com"
