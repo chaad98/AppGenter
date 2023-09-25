@@ -30,7 +30,7 @@ bm:
       section2_text6: "Pengurusan pekerja dengan penjadualan perubahan, kerja lebih masa, dan pengaturan cuti umum, penyesuaian mengikut polisi Sumber Manusia ke dalam sistem untuk sesuai dengan pelbagai keadaan."
       section3_about: "Tentang Kami"
       section3_title: "Menghumanisasi dan merangkul teknologi, pengetahuan, dan inovasi untuk cara hidup yang lebih baik."
-      section3_desc: "TwentyEight IT Solutions telah ditubuhkan dan direka untuk menyediakan kelebihan bersaing kepada perniagaan dengan menyokong akses kepada maklumat perniagaan, dengan profesional teratas dalam Kecerdasan Buatan (AI), Internet of Things (IoT), dan Big Data dalam Fintech dan Teknologi Mudah Alih. Penyelesaian Aplikasi Genter kami terdiri daripada metodologi perniagaan yang terbukti untuk membolehkan perniagaan tetap berhubung ketika seluruh dunia berada dalam tempoh Penjarakan Sosial dan Tanpa Sentuhan."
+      section3_desc: "ALGODLA SDN. BHD. telah ditubuhkan dan direka untuk menyediakan kelebihan bersaing kepada perniagaan dengan menyokong akses kepada maklumat perniagaan, dengan profesional teratas dalam Kecerdasan Buatan (AI), Internet of Things (IoT), dan Big Data dalam Fintech dan Teknologi Mudah Alih. Penyelesaian Aplikasi Genter kami terdiri daripada metodologi perniagaan yang terbukti untuk membolehkan perniagaan tetap berhubung ketika seluruh dunia berada dalam tempoh Penjarakan Sosial dan Tanpa Sentuhan."
       section4_product: "Produk-Produk Kami"
       section4_title: "Mendigitalisasi Perniagaan Anda Bersama Kami"
       section5_clients: "Pelanggan di Seluruh Dunia"
@@ -50,10 +50,15 @@ bm:
       bottom_middle_desc_three: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
       bottom_right_title: "Pautan Sosial"
       c_ending: "Menantikan untuk berjumpa dengan anda"
-      section6_title: "Mari Berhubung"
+      section6_title: "Hubungi Kami"
+      section6_title2: "Mari Berhubung"
       section6_desc: "Kami di sini untuk membantu dan sentiasa gembira mendengar dari anda. Sila hubungi kami menggunakan borang."
+    projects:
+      project_title: "Projek Terkini Kami"
+      project_desc1: "Perjumpaan Sains Tahunan Hematologi ke-17"
+      project_desc2: "Expo Bayi TCE 2020"
     footer:
-      footer_left_heading: "TwentyEight IT Solutions Sdn Bhd."
+      footer_left_heading: "ALGODLA SDN. BHD."
       footer_left_desc_one: "Menara Worldwide, Level 24 & 25 198, Jln Bukit Bintang,"
       footer_left_desc_two: "Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
       footer_middle_heading: "Pautan Pantas"
@@ -61,7 +66,7 @@ bm:
       footer_middle_desc2: "Produk"
       footer_right_heading: "Pertanyaan Berkaitan Kerja"
       footer_right_desc: "info@appgenter.com"
-      footer_copyright: "© Hak Cipta 2023 | TwentyEight IT Solutions Sdn Bhd"
+      footer_copyright: "© Hak Cipta 2023 | ALGODLA SDN. BHD."
   activerecord:
     attributes:
       enquiry:

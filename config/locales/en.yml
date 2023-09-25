@@ -38,7 +38,7 @@ en:
     navbar:
       mail: "info@appgenter.com"
     menubar:
-      menu_link1: "AppGenter"
+      menu_link1: "APPGENTER"
       menu_link2: "Products"
       menu_link3: "Projects"
       menu_link4: "Contact Us"
@@ -61,7 +61,7 @@ en:
       section2_text6: "Management of personnel with shift, overtime and public holiday settings, customization upon HR policy into system to fit in various circumstances."
       section3_about: "About Us"
       section3_title: "Humanizing and embracing technology, knowledge and innovation for a better way of life."
-      section3_desc: "TwentyEight IT Solutions is incorporated and designed to provide businesses with competitive edge by supporting access to business information, with the top professionals in Artificial Intelligence (AI), Internet of Things (IoT), and Big Data in Fintech and Mobile Technologies. Our AppGenter solutions comprises of proven business methodologies for businesses to remain in contact while the whole world is in the period of Social Distancing and Contactless."
+      section3_desc: "ALGODLA SDN. BHD. is incorporated and designed to provide businesses with competitive edge by supporting access to business information, with the top professionals in Artificial Intelligence (AI), Internet of Things (IoT), and Big Data in Fintech and Mobile Technologies. Our APPGENTER solutions comprises of proven business methodologies for businesses to remain in contact while the whole world is in the period of Social Distancing and Contactless."
       section4_product: "Our Products"
       section4_title: "Digitalize Your Business With Us"
       section5_clients: "Clients Worldwide"
@@ -69,6 +69,10 @@ en:
       section5_countries: "Countries"
       section6_title: "Let's Get in Touch"
       section6_desc: "We're here to help and always happy to hear from you. Do contact us using the form."
+    projects:
+      project_title: "Our Latest Projects"
+      project_desc1: "17th Haemotology Annual Scientific Meeting"
+      project_desc2: "2020 TCE Baby Expo"
     contact_us:
       top_title: "Contact Us"
       top_desc: "Leave us a little info, and we’ll be in touch."
@@ -81,18 +85,19 @@ en:
       bottom_middle_desc_three: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
       bottom_right_title: "Social Links"
       c_ending: "Looking Forward To Meet You"
-      section6_title: "Let's Get in Touch"
+      section6_title: "Contact Us"
+      section6_title2: "Let's Get in Touch"
       section6_desc: "We're here to help and always happy to hear from you. Do contact us using the form."
     footer:
-      footer_left_heading: "TwentyEight IT Solutions Sdn Bhd."
+      footer_left_heading: "ALGODLA SDN. BHD."
       footer_left_desc_one: "Menara Worldwide, Level 24 & 25 198, Jln Bukit Bintang,"
       footer_left_desc_two: "Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
       footer_middle_heading: "Quick Links"
-      footer_middle_desc1: "AppGenter"
+      footer_middle_desc1: "APPGENTER"
       footer_middle_desc2: "Products"
       footer_right_heading: "Work Enquiries"
       footer_right_desc: "info@appgenter.com"
-      footer_copyright: "© Copyright 2023 | TwentyEight IT Solutions Sdn Bhd"
+      footer_copyright: "© Copyright 2023 | ALGODLA SDN. BHD."
   activerecord:
     attributes:
       enquiry:

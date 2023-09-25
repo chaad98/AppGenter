@@ -11,6 +11,7 @@ module AppGenter
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 
+    config.hosts << "appgenter.com"
     config.hosts << "www.appgenter.com"
 
     config.i18n.available_locales = %i[en bm cn]
