@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
         },
-        { threshold: 0.3 }
+        { threshold: 0.2 }
     );
 
     // Start observing the container

@@ -334,6 +334,7 @@
     align-items: center;
     opacity: 0; /* Initially hidden */
     transition: opacity 1s;
+    overflow-x: hidden;
 }
 
 .section4-child{
@@ -427,10 +428,16 @@
         display: flex;
     }
 
-    .section4-child.one,
+    .section4-child.one {
+        flex: 1;
+        width: 100%;
+        transform: translateX(-100%);
+    }
+
     .section4-child.two {
         flex: 1;
         width: 100%;
+        transform: translateX(100%);
     }
 
     .section4-subchild-left.one {
