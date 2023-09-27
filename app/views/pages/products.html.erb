@@ -3,32 +3,32 @@
 <div class="product-container">
     <div class="product-child one">
         <div class="product-subchild one" id="prod-sub">
-            We provide various
+            <%= t'.product_container_title' %>
             <br> 
-            kinds of <span class="product-span">services</span> for you
+            <%= t'.product_container_title2' %> <span class="product-span"><%= t'.product_container_title3_span' %></span> <%= t'.product_container_title4' %>
         </div>
         <div class="product-subchild two">
             <div class="product-subtwo-inner one">
-                User App and Merchant app
+                <%= t'.product_subtwo_title' %>
                 <br>
-                (IOS & Android)
+                <%= t'.product_subtwo_title2' %>
             </div>
             <div class="product-subtwo-inner two">
-                Technical Maintenance and Support
+                <%= t'.product_subtwo_title3' %>
             </div>
             <div class="product-subtwo-inner three">
-                Cloud Hosting at Reliable Environment
+                <%= t'.product_subtwo_title4' %>
             </div>
         </div>
         <div class="product-subchild three">
             <div class="product-subthree-inner one">
-                Backend System
+                <%= t'.product_subtwo_title5' %>
             </div>
             <div class="product-subthree-inner two">
-                Marketing Support
+                <%= t'.product_subtwo_title6' %>
             </div>
             <div class="product-subthree-inner three">
-                Data Analytics
+                <%= t'.product_subtwo_title7' %>
             </div>
         </div>
     </div>
@@ -45,18 +45,18 @@
             </div>
             <div class="product2-subone-inner two">
                 <div class="subone-title two">
-                    Flash Sales
+                    <%= t'.product_container2_title' %>
                 </div>
                 <div class="subone-desc two">
-                    Create flash sales to increase traffic
+                    <%= t'.product_container2_desc' %>
                 </div>
             </div>
             <div class="product2-subone-inner three">
                 <div class="subone-title three">
-                    Loyalty Programs
+                    <%= t'.product_container2_title2' %>
                 </div>
                 <div class="subone-desc three">
-                    Voucher feature that remain your customer’s loyalty Point redemption and exclusive deals that create user’s interest
+                    <%= t'.product_container2_desc2' %>
                 </div>
             </div>
         </div>
@@ -69,18 +69,18 @@
             </div>
             <div class="product2-subtwo-inner two">
                 <div class="subtwo-title two">
-                    ConnectY Smart Community
+                    <%= t'.product_container2_title3' %>
                 </div>
                 <div class="subtwo-desc two">
-                    Connect every merchant on board Seamless
+                    <%= t'.product_container2_desc3' %>
                 </div>
             </div>
             <div class="product2-subtwo-inner three">
                 <div class="subtwo-title three">
-                    Gamification
+                    <%= t'.product_container2_title4' %>
                 </div>
                 <div class="subtwo-desc three">
-                    Gets your customer involved and get them interested
+                    <%= t'.product_container2_desc4' %>
                 </div>
             </div>
         </div>
@@ -92,18 +92,18 @@
         <div class="product3-subchild one">
             <div class="product3-subone-inner one">
                 <div class="subone-title one">
-                    Product & Service Listings
+                    <%= t'.product_container3_title' %>
                 </div>
                 <div class="subone-desc one">
-                    Detailed listing that allow customers to search at ease. Improve customer’s experience and satisfaction
+                    <%= t'.product_container3_desc' %>
                 </div>
             </div>
             <div class="product3-subone-inner two">
                 <div class="subone-title two">
-                    Push Notifications
+                    <%= t'.product_container3_title2' %>
                 </div>
                 <div class="subone-desc two">
-                    Easily remind customers about your marketing campaigns at the optimal time Businesses are even closer to facilitating direct interaction with customers
+                    <%= t'.product_container3_desc2' %>
                 </div>
             </div>
             <div class="product3-subone-inner three">
@@ -116,18 +116,18 @@
         <div class="product3-subchild two">
             <div class="product3-subtwo-inner one">
                 <div class="subtwo-title one">
-                    Corporate Identity
+                    <%= t'.product_container3_title3' %>
                 </div>
                 <div class="subtwo-desc one">
-                    Create, accept and approve booking/appointment at all times. Update service/ staff’s availability
+                    <%= t'.product_container3_desc3' %>
                 </div>
             </div>
             <div class="product3-subtwo-inner two">
                 <div class="subtwo-title two">
-                    Booking & Appointments
+                    <%= t'.product_container3_title4' %>
                 </div>
                 <div class="subtwo-desc two">
-                    Customized colours, fonts to match with your company identity. Creative design that will bring your ideas to life
+                    <%= t'.product_container3_desc4' %>
                 </div>
             </div>
             <div class="product3-subtwo-inner three">
@@ -143,77 +143,79 @@
 <div class="product-container4">
     <div class="product4-child one">
         <div class="product4-subchild one" id="prod4-sub-one">
-            Choose the <span class="product4-title">Right Plan</span> for your business
+            <%= t'.product_plan_title' %> <span class="product4-title"><%= t'.product_plan_title2_span' %></span> <%= t'.product_plan_title3' %>
         </div>
         <div class="product4-subchild two" id="prod4-sub-two">
-            An all-in-one app solution that is affordable and
-            beneficial for your business
+            <%= t'.product_plan_desc' %>
         </div>
         <div class="product4-subchild three">
             <div class="product4-innerchild one">
                 <div class="product4-plan starter">
                     <div class="starter-title">
-                        Starter
+                        <%= t'.starter_title' %>
                     </div>
                     <div class="starter-pricing">
-                        <span class="rm">RM</span>
-                        <span class="amount">3,650</span>
-                        <span class="per-year">Yearly</span>
+                        <span class="rm"><%= t'.starter_pricing' %></span>
+                        <span class="amount"><%= t'.starter_pricing2' %></span>
+                        <span class="per-year"><%= t'.starter_pricing3' %></span>
                     </div>
                     <div class="starter-item">
-                        <span class="s-one">Android APP</span>
-                        <span class="s-two">Merchant APP</span>
-                        <span class="s-three">Base Functions</span>
+                        <span class="s-one"><%= t'.starter_items' %></span>
+                        <span class="s-two"><%= t'.starter_items2' %></span>
+                        <span class="s-three"><%= t'.starter_items3' %></span>
                     </div>
                     <div class="starter-button">
-                        <%= link_to "Get Quote", contact_path, class: "go-green" %>
+                        <%= link_to t('.product_plan_button'), contact_path, class: "go-green" %>
                     </div>
                 </div>
             </div>
             <div class="product4-innerchild two">
                 <div class="product4-plan premium">
                     <div class="premium-title">
-                        Premium
+                        <%= t'.premium_title' %>
                     </div>
                     <div class="premium-pricing">
-                        <span class="rm">RM</span>
-                        <span class="amount">19,900</span>
-                        <span class="per-year">Yearly</span>
+                        <span class="rm"><%= t'.premium_pricing' %></span>
+                        <span class="amount"><%= t'.premium_pricing2' %></span>
+                        <span class="per-year"><%= t'.premium_pricing3' %></span>
                     </div>
                     <div class="premium-item">
-                        <span class="pr-one">Android APP</span>
-                        <span class="pr-two">Merchant APP</span>
-                        <span class="pr-three">Base Functions</span>
-                        <span class="pr-four">Sales/ Marketing Functions</span>
-                        <span class="pr-five">Supports</span>
+                        <span class="pr-one"><%= t'.premium_items' %></span>
+                        <span class="pr-two"><%= t'.premium_items2' %></span>
+                        <span class="pr-three"><%= t'.premium_items3' %></span>
+                        <span class="pr-four"><%= t'.premium_items4' %></span>
+                        <span class="pr-five"><%= t'.premium_items5' %></span>
                     </div>
                     <div class="premium-button">
-                        <%= link_to "Get Quote", contact_path, class: "go-orange" %>
+                        <%= link_to t('.product_plan_button'), contact_path, class: "go-orange" %>
                     </div>
                 </div>
             </div>
             <div class="product4-innerchild three">
                 <div class="product4-plan platinum">
                     <div class="platinum-title">
-                        Platinum
+                        <%= t'.platinum_title' %>
+                    </div>
+                    <div class= "platinum-ribbon">
+                        <%= t '.platinum_ribbon' %>
                     </div>
                     <div class="platinum-pricing">
-                        <span class="rm">RM</span>
-                        <span class="amount">35,900</span>
+                        <span class="rm"><%= t'.platinum_pricing' %></span>
+                        <span class="amount"><%= t'.platinum_pricing2' %></span>
                     </div>
-                        <span class="per-year" id="otp">One Time Payment</span>
+                        <span class="per-year" id="otp"><%= t'.platinum_pricing3' %></span>
                         
                     <div class="platinum-item">
-                        <span class="pl-one">Android APP</span>
-                        <span class="pl-two">Merchant APP</span>
-                        <span class="pl-three">Base Functions</span>
-                        <span class="pl-four">Sales/ Marketing Functions</span>
-                        <span class="pl-five">Payment & Loyalty Program</span>
-                        <span class="pl-six">Supports</span>
-                        <span class="pl-seven">Special Features</span>
+                        <span class="pl-one"><%= t'.platinum_items' %></span>
+                        <span class="pl-two"><%= t'.platinum_items2' %></span>
+                        <span class="pl-three"><%= t'.platinum_items3' %></span>
+                        <span class="pl-four"><%= t'.platinum_items4' %></span>
+                        <span class="pl-five"><%= t'.platinum_items5' %></span>
+                        <span class="pl-six"><%= t'.platinum_items6' %></span>
+                        <span class="pl-seven"><%= t'.platinum_items7' %></span>
                     </div>
                     <div class="platinum-button">
-                        <%= link_to "Get Quote", contact_path, class: "go-purple" %>
+                        <%= link_to t('.product_plan_button'), contact_path, class: "go-purple" %>
                     </div>
                 </div>
             </div>
@@ -226,7 +228,7 @@
         <div class="product5-subchild one">
         </div>
         <div class="product5-subchild two">
-            <a class="product5-link" href="/pdfs/ConnectY_Product_Packages.pdf" target="_blank">For More Details View Here &nbsp;<i class="fas fa-long-arrow-alt-right"></i></a>
+            <a class="product5-link" href="/pdfs/ConnectY_Product_Packages.pdf" target="_blank"><%= t'.product_container5_link' %> &nbsp;<i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
     </div>
 </div>

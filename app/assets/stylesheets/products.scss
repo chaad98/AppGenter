@@ -308,8 +308,7 @@
     color: #7912B8;
 }
 
-.product4-plan.platinum::before {
-    content: "Popular";
+.platinum-ribbon {
     position: absolute;
     top: 0;
     right: 0;
@@ -320,7 +319,6 @@
     transform-origin: top right;
     z-index: 1;
 }
-
 
 .starter-title{
     margin-top: 3%;
