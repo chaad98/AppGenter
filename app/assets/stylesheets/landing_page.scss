@@ -334,7 +334,7 @@
     align-items: center;
     opacity: 0; /* Initially hidden */
     transition: opacity 1s;
-    overflow-x: hidden;
+    overflow: hidden
 }
 
 .section4-child{

@@ -362,7 +362,8 @@
 
 .s-one,
 .s-two,
-.s-three{
+.s-three,
+.s-four{
     margin: 0 0 3% 23%;
 }
 
@@ -370,7 +371,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 3%;
+    margin: 3% 0 3% 0;
 }
 
 .go-green{
@@ -429,7 +430,8 @@
 .pr-two,
 .pr-three,
 .pr-four,
-.pr-five{
+.pr-five,
+.pr-six{
     margin: 0 0 3% 23%;
 }
 
@@ -437,7 +439,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 8%;
+    margin: 3% 0 3% 0;
 }
 
 .go-orange{
@@ -504,7 +506,8 @@
 .pl-four,
 .pl-five,
 .pl-six,
-.pl-seven{
+.pl-seven,
+.pl-eight{
     margin: 0 0 3% 23%;
 }
 
@@ -512,7 +515,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 13%;
+    margin: 3% 0 3% 0;
 }
 
 .go-purple{
