@@ -14,6 +14,7 @@ class EnquiriesController < ApplicationController
 
     def create
         @enquiry = Enquiry.new(enquiry_params)
+        @enquiry.language = I18n.locale.to_s
         
         if @enquiry.save
             #Send email
@@ -23,7 +24,7 @@ class EnquiriesController < ApplicationController
             save_to_json
 
             # Build the JSON data you want to send to the external API
-            json_data = @enquiry.attributes.to_json
+            json_data = @enquiry.attributes.merge(language: I18n.locale.to_s).to_json
 
             # Build the JSON data you want to send to the external API
             api_url = 'https://www.app-api-connect.com/api/test_api.php?json='
@@ -74,8 +75,8 @@ class EnquiriesController < ApplicationController
         # Retrieve all the records from your database
         enquiries = Enquiry.all
     
-        # Convert the records to an array of hashes
-        data = enquiries.map(&:attributes)
+        # Convert the records to an array of hashes with the "language" attribute
+        data = enquiries.map { |enquiry| enquiry.attributes }
     
         # Write the data to the JSON file, overwriting its contents
         File.write(json_file_path, JSON.pretty_generate(data))
