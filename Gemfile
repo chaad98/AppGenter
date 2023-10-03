@@ -6,6 +6,9 @@ ruby "3.2.2"
 gem 'sass-rails', '~> 6.0'
 gem 'bootstrap', '~> 5.3.1'
 
+# for JSON and HTTP Request post to API
+gem 'httparty'
+
 # The translation language
 gem 'i18n', '~> 1.14', '>= 1.14.1'
 
