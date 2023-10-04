@@ -37,6 +37,10 @@ en:
   pages:
     navbar:
       mail: "info@appgenter.com"
+    flash:
+      success: "Form has been submitted successfully!"
+      danger: "Please key in all of the details!"
+      danger_api: "Internal server error! Please submit the form later again"
     menubar:
       menu_link1: "APPGENTER"
       menu_link2: "Products"

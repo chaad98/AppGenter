@@ -34,14 +34,14 @@ class EnquiriesController < ApplicationController
             response = HTTParty.post(api_url_with_query, body: json_data, headers: { 'Content-Type' => 'application/json' })
 
             if response.success?
-                redirect_to root_path, success: "Forms has been submitted successfully!"
+                redirect_to root_path, success: t('pages.flash.success')
                 Rails.logger.info("API Response: #{response.code} - #{response.body}")
             else
                 Rails.logger.error("API Error: #{response.code} - #{response.body}")
-                flash.now[:danger] = "Error sending data to the API!"
+                flash.now[:danger] = t('pages.flash.danger_api')
             end
         else
-            redirect_to root_path, danger: "Please key in all of the details!"
+            redirect_to root_path, danger: t('pages.flash.danger')
         end
     end
 

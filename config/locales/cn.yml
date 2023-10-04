@@ -6,6 +6,10 @@ cn:
   pages:
     navbar:
       mail: "info@appgenter.com"
+    flash:
+      success: "表单已成功提交！"
+      danger: "请填写所有的细节！"
+      danger_api: "内部服务器错误！请稍后再次提交表单"
     menubar:
       menu_link1: "应用生成器"
       menu_link2: "产品"

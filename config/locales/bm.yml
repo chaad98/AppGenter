@@ -6,6 +6,10 @@ bm:
   pages:
     navbar:
       mail: "info@appgenter.com"
+    flash:
+      success: "Borang telah berjaya dihantar!"
+      danger: "Sila isi semua butiran!"
+      danger_api: "Ralat pelayan dalaman! Sila hantar borang kemudian sekali lagi"
     menubar:
       menu_link1: "Aplikasi Genter"
       menu_link2: "Produk"
