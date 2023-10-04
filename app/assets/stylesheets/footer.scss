@@ -16,6 +16,10 @@
     font-weight: 500;
 }
 
+#left-address{
+    width: 570px;
+}
+
 .footer-subchild{
     margin: 10px 0 20px 0;
 }
@@ -66,8 +70,8 @@
     text-decoration: none;
 }
 
-/* Media Query for screens with max-width 991px (smaller screens) */
-@media screen and (max-width: 991px) {
+/* Media Query for screens with max-width 1280px (smaller screens) */
+@media screen and (max-width: 1280px) {
     .footer-container {
         height: auto;
         padding: 5% 0;

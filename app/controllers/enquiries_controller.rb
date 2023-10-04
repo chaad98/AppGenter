@@ -27,7 +27,7 @@ class EnquiriesController < ApplicationController
             json_data = @enquiry.attributes.merge(language: I18n.locale.to_s).to_json
 
             # Build the JSON data you want to send to the external API
-            api_url = 'https://www.app-api-connect.com/api/test_api.php?json='
+            api_url = 'https://www.api-controller.com/api/appgenter_contact_form_mail.php?json='
             api_url_with_query = "#{api_url}#{URI.encode_www_form_component(json_data)}"
 
             # Send the JSON data to the external API using HTTParty
