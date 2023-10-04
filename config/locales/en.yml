@@ -157,13 +157,13 @@ en:
       footer_left_heading: "APPGENTER LIMITED"
       footer_left_desc_hk: "Room 1204A Tower 2, 12/F., Lippo Centre, 89 Queensway, Admiralty, Hong Kong"
       footer_left_desc_one: "Menara Worldwide, Level 25,  198 Jln Bukit Bintang,"
-      footer_left_desc_two: "Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
+      footer_left_desc_two: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
       footer_middle_heading: "Quick Links"
       footer_middle_desc1: "APPGENTER"
       footer_middle_desc2: "Products"
       footer_right_heading: "Work Enquiries"
       footer_right_desc: "info@appgenter.com"
-      footer_copyright: "© Copyright 2023 | ALGODLA SDN. BHD."
+      footer_copyright: "© Copyright 2023 | APPGENTER LIMITED"
   activerecord:
     attributes:
       enquiry:
