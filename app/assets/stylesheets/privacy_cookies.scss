@@ -1,0 +1,154 @@
+.prico-container{
+    height: 450px;
+    background-image: url("external.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 15%;
+}
+
+.prico-child{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 7%;
+}
+
+.prico-subchild.one{
+    width: 65%;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prico-subchild.two{
+    width: 35%;
+}
+
+.prico-innerchild{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.prico-innerchild.one{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.prico-innerchild.two{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #bbb;
+    margin-top: 1.5%;
+}
+
+/* Add a media query for screens up to 991px wide */
+@media (max-width: 991px) {
+    .prico-container {
+        background-size: cover;
+        padding: 2%;
+        height: 400px;
+    }
+
+    .prico-child {
+        flex-direction: column; /* Stack the children vertically */
+        align-items: flex-start; /* Align children to the left */
+    }
+
+    .prico-subchild.one {
+        width: 100%; /* Expand to full width */
+        margin-top: 4%; /* Adjust margin as needed */
+    }
+
+    .prico-innerchild.one {
+        font-size: 36px; /* Adjust font size as needed */
+        line-height: 46px; /* Adjust line height as needed */
+    }
+
+    .prico-innerchild.two {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 26px; /* Adjust line height as needed */
+    }
+}
+
+//section2
+.p-item{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 6% 15%;
+}
+
+.p-child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+
+.p-first-title{
+    font-size: 20px;
+    margin-bottom: 1.2%;
+}
+
+.p-text{
+    font-size: 18px;
+    color: #8d8d8d;
+    line-height: 28px;
+    margin-top: 0.5%;
+    text-align: justify;
+}
+
+#p-id{
+    margin: 0;
+}
+
+#www-id{
+    text-align: left;
+}
+
+.www-link{
+    color: #333;
+}
+
+.www-link:hover{
+    color: rgb(206, 7, 7);
+}
+
+.p-all-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+/* Add a media query for screens up to 991px wide */
+@media (max-width: 991px) {
+    .p-item {
+        padding: 2%;
+    }
+
+    .p-child {
+        align-items: flex-start;
+    }
+
+    .p-first-title,
+    .p-all-title {
+        font-size: 18px;
+    }
+
+    .p-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .www-link{
+        text-align: left;
+    }
+}

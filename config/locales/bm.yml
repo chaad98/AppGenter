@@ -3,6 +3,11 @@ bm:
     en: "en"
     bm: "bm"
     cn: "cn"
+  languages:
+    lang_btn: "Bahasa"
+    english: "Bahasa Inggeris"
+    malay: "Bahasa Malaysia"
+    chinese: "Bahasa Cina"    
   pages:
     navbar:
       mail: "info@appgenter.com"
@@ -134,9 +139,236 @@ bm:
       footer_middle_heading: "Pautan Pantas"
       footer_middle_desc1: "Aplikasi Genter"
       footer_middle_desc2: "Produk"
+      footer_middle_desc3: "Terma"
+      footer_middle_desc4: "Privasi & Kuki"
       footer_right_heading: "Pertanyaan Berkaitan Kerja"
       footer_right_desc: "info@appgenter.com"
       footer_copyright: "© Hak Cipta 2023 | APPGENTER LIMITED"
+    terms:
+      terms_title: "Terma Penggunaan"
+      terms_desc: "Dengan menggunakan mana-mana daripada perkhidmatan atau produk kami, anda bersetuju dengan dokumen ini dalam kandungannya yang penuh.
+                      Berhentilah menggunakan semua perkhidmatan dan produk kami dengan serta-merta
+                      jika anda tidak bersetuju dengan dokumen ini dalam kandungannya yang penuh dan/atau dengan mana-mana bahagian daripadanya."
+      terms_subject: "SUBJEK"
+      terms_s_text1: "Terma Penggunaan ini (termasuk mana-mana perenggan dan/atau kenyataan dan/atau bahagian daripada Terma Penggunaan ini) 
+                  (selanjutnya dirujuk sebagai 'ToS' atau 'Terma Penggunaan') menetapkan syarat-syarat penggunaan perisian ini."
+      terms_s_text2: "Perisian ini (termasuk mana-mana bahagian, modul, dan/atau sub-modulnya) adalah aplikasi perisian yang diprogramkan untuk
+                  tujuan pengimbasan dalam talian automatik pasaran perdagangan Forex secara masa nyata, penilaian penyimpangan pasaran jangka pendek
+                  dalam masa nyata berdasarkan strategi perdagangan sendiri, pengurusan risiko, algoritma, dan pembukaan, pengurusan, penutupan
+                  perdagangan beli dan/atau jual secara automatik dalam masa nyata (selanjutnya dirujuk sebagai 'Aplikasi') dalam akaun perdagangan
+                  di mana Aplikasi perisian ini dilancarkan dan dimasukkan (selanjutnya dirujuk sebagai 'Akaun')."
+      terms_s_text3: "Akaun bukanlah akaun Aplikasi. Aplikasi ini tidak menerima, menyimpan atau menyimpan deposit perdagangan anda.
+                  Deposit perdagangan anda disimpan dalam akaun perdagangan peribadi anda (Akaun) dalam perkhidmatan penyedia pihak ketiga
+                  (Pemilik Broker) yang menyediakan, mengendalikan dan mengekalkan Akaun dan dana-dana Akaun serta menyediakan anda dengan perkhidmatan perdagangan."
+      terms_s_text4: "Aplikasi ini TIDAK mengandungi fungsi untuk memulakan pengeluaran dari Akaun ke mana-mana akaun lain dan/atau pihak ketiga lain."
+      terms_s_text5: "Aplikasi ini adalah produk perisian, sistem automatik untuk analisis dan penilaian data dalam masa nyata, serta untuk pelaksanaan automatik
+                  tugas yang telah diprogramkan. Dalam apa-apa konteks dan di bawah apa-apa keadaan pun, penggunaan aplikasi ini tidak boleh diinterpretasikan sebagai
+                  penyediaan perkhidmatan pelaburan atau perkhidmatan penasihat, atau perkhidmatan pengurusan aset."
+      terms_all_title_1: "1. peruntukan"
+      terms_1_text1_1: "1.1 Anda dibenarkan menggunakan Aplikasi ini hanya jika anda membaca, memahami, dan menerima Terma Penggunaan ini dalam kandungannya yang penuh,
+                  dan anda sepenuhnya memahami, menerima, dan bersetuju dengan semua perenggan dan kenyataan dan peruntukan dalam Terma Penggunaan ini dalam kandungannya yang penuh."
+      terms_1_text1_2: "1.2 Jika anda tidak membaca, memahami, atau menerima atau bersetuju dengan Terma Penggunaan ini (dan/atau mana-mana perenggan dan/atau kenyataan dan/atau
+                  bahagian dan/atau peruntukan dalam Terma Penggunaan ini), maka anda TIDAK dibenarkan menggunakan Aplikasi ini (dan/atau mana-mana bahagian,
+                  modul, dan/atau sub-modulnya) dan penggunaan sedemikian adalah dilarang dengan tegas dan akan dianggap sebagai aktiviti haram."
+      terms_1_text1_3: "1.3 Menggunakan Aplikasi ini dengan bercanggah dengan Terma Penggunaan ini (dan/atau dengan pelanggaran mana-mana perenggan dan/atau kenyataan
+                  dan/atau bahagian dalam Terma Penggunaan ini) TIDAK dibenarkan dan adalah dilarang dengan tegas dan dianggap sebagai aktiviti haram."
+      terms_1_text1_4: "1.4 Jika mana-mana syarat dari perenggan 1.1 dan/atau perenggan 1.2 dan/atau perenggan 1.3 dalam ToS ini dipenuhi, atau dalam kes pelanggaran
+                  mana-mana terma dalam Terma Penggunaan ini, anda diwajibkan untuk menghentikan Aplikasi dan berhenti menggunakan Aplikasi ini dengan serta-merta."
+      terms_1_text1_5: "1.5 Anda dibenarkan menggunakan Aplikasi ini hanya dengan Akaun perdagangan yang sah milik anda dan yang merupakan harta peribadi anda."
+      terms_1_text1_6: "1.6 Anda dibenarkan menggunakan Aplikasi ini hanya dengan dana kewangan yang sah milik anda dan yang merupakan harta peribadi anda."
+      terms_1_text1_7: "1.7 Anda dibenarkan menggunakan Aplikasi ini hanya dengan kelayakan log masuk yang milik kepada Akaun perdagangan peribadi anda dan yang merupakan harta
+                  peribadi anda."
+      terms_1_text1_8: "1.8 Anda dibenarkan menggunakan Aplikasi ini hanya dengan kelayakan log masuk yang tidak didedahkan dan/atau diketahui oleh mana-mana pihak ketiga
+                  (termasuk tetapi tidak terhad kepada mana-mana aplikasi perisian lain dan/atau individu dan/atau entiti dan/atau sumber lain selain Aplikasi ini."
+      terms_1_text1_9: "1.9 Anda dibenarkan menggunakan Aplikasi ini hanya di bawah pengawasan langsung dan tanpa gangguan serta akses langsung anda kepada Aplikasi
+                  sepanjang masa ketika Aplikasi ini dalam talian dan aktif. Anda bersetuju dan diwajibkan sentiasa bersedia dan tersedia untuk mengakses Aplikasi
+                  apabila Aplikasi ini dalam talian dan aktif. Anda bersetuju dan diwajibkan untuk dapat dan tersedia untuk mengawal Aplikasi atau mematikan Aplikasi
+                  dalam kes situasi kecemasan, selama tempoh ketika Aplikasi ini dalam talian dan aktif. Jika anda menjangkakan akan berada dalam talian atau tanpa sambungan
+                  internet atau tanpa akses yang wajar kepada Aplikasi, anda diwajibkan untuk menghentikan Aplikasi dan tidak menggunakan Aplikasi selama anda tidak mempunyai
+                  pilihan untuk mengawal dan mengawal aktiviti Aplikasi dan mematikan Aplikasi dalam kes kecemasan."
+      terms_1_text1_10: "1.10 Anda TIDAK dibenarkan menggunakan Aplikasi ini jika anda tidak memahami sepenuhnya prinsip perdagangan Forex dan/atau perdagangan dengan
+                  margin (leveraj) dan/atau perdagangan dengan perisian perdagangan sepenuhnya automatik dan/atau perdagangan dengan Aplikasi ini dan/atau anda tidak memahami
+                  sepenuhnya risiko yang berkaitan dengan aktiviti-aktiviti tersebut dan/atau anda tidak menerima sepenuhnya risiko yang berkaitan dengan menggunakan Aplikasi ini
+                  atas kos anda sendiri."
+      terms_1_text1_11: "1.11 Anda TIDAK dibenarkan menggunakan dan/atau menyebarkan Aplikasi ini jika penggunaan dan/atau penyebaran Aplikasi ini bermaksud melanggar undang-undang
+                  dalam negara asal anda dan/atau melanggar mana-mana peraturan dan/atau undang-undang yang ditetapkan oleh mana-mana pihak berkuasa dalam bidang kuasa anda."
+      terms_1_text1_12: "1.12 Sebarang maklumat dan/atau isyarat perdagangan dan/atau arahan perdagangan dan/atau perdagangan yang dihasilkan dan/atau disediakan dan/atau disebarkan oleh Aplikasi
+                  adalah pandangan sahaja dan tidak membentuk nasihat pelaburan."
+      terms_1_text1_13: "1.13 Anda dibenarkan menggunakan Aplikasi ini hanya jika anda mengakui bahawa Aplikasi ini tidak menyediakan perkhidmatan kewangan atau nasihat pelaburan dan apa yang anda
+                  lakukan dengan pandangan dan/atau isyarat perdagangan dan/atau sebarang jenis output yang disediakan oleh Aplikasi adalah keputusan anda, dan anda bertanggungjawab sepenuhnya untuk
+                  semua perdagangan dan pelaburan serta akibat-akibat yang timbul daripada penggunaan Aplikasi ini."
+      terms_1_text1_14: "1.14 Anda hanya dibenarkan menggunakan Aplikasi ini jika anda mengakui dan bersetuju bahawa pembangun Aplikasi ini (termasuk tetapi tidak terhad kepada pencipta dan/atau penulis
+                  dan/atau pengedar dan/atau pengasas Aplikasi) tidak menyediakan sebarang perkhidmatan kewangan atau nasihat pelaburan kepada anda, dan anda tidak akan menginterpretasikan penggunaan Aplikasi
+                  ini dalam apa-apa konteks atau dalam apa-apa keadaan sebagai penyediaan perkhidmatan kewangan atau penyediaan perkhidmatan pengurusan aset."
+      terms_1_text1_15: "1.15 Menggunakan Aplikasi ini untuk berdagang dalam akaun Demo dan/atau untuk berdagang dalam akaun Live adalah keputusan anda, dan anda bertanggungjawab sepenuhnya terhadap keputusan tersebut.
+                  Menggunakan Aplikasi ini dalam Akaun Langsung akan mempunyai kesan kewangan yang sebenar dan tidak boleh dikembalikan (positif dan/atau negatif) terhadap baki Akaun."
+      terms_1_text1_16: "1.16 Aplikasi, algoritma, dan fungsinya, penyediaan dan pengedaran Aplikasi ini tidak berlesen atau diaudit atau dikawal atau dikawal oleh mana-mana pihak ketiga atau oleh mana-mana
+                  pihak berkuasa kewangan."
+      terms_1_text1_17: "1.17 Di beberapa bidang kuasa, penggunaan Aplikasi ini mungkin terhad, dikawal, atau memerlukan permit khas, pendaftaran, atau lesen."
+      terms_1_text1_18: "1.18 Anda bertanggungjawab sepenuhnya untuk memastikan pematuhan dengan peraturan negara kediaman anda dan untuk sebarang akibat yang timbul daripada penggunaan aplikasi ini. Anda bertanggungjawab
+                  sepenuhnya terhadap kesan negatif yang timbul daripada peraturan negara anda dan daripada penggunaan Aplikasi ini."
+      terms_1_text1_19: "1.19 Anda bertanggungjawab sepenuhnya terhadap semua kemungkinan kesan negatif dan akibat (termasuk tetapi tidak terhad kepada kesan dan akibat kewangan dan undang-undang) yang disebabkan secara langsung atau tidak
+                  langsung oleh penggunaan Aplikasi ini."
+      terms_1_text1_20: "1.20 Anda TIDAK dibenarkan menggunakan Aplikasi ini jika anda berusia kurang dari 18 tahun."
+      terms_all_title_2: "2. aplikasi"
+      terms_2_text2_1: "2.1 Aplikasi mempunyai akses ke akaun perdagangan melalui kelayakan log masuk (API-Key, Rahsia, Nombor Akaun) yang anda berikan kepada
+                      Aplikasi semasa memulakan Aplikasi (selanjutnya dikenali sebagai Kelayakan Log Masuk)."
+      terms_2_text2_2: "2.2 Adalah dilarang dengan tegas menggunakan Kelayakan Log Masuk dalam pelanggaran terhadap perenggan 1.5 dan/atau 1.6 dan/atau 1.7 dan/atau 1.8 dalam ToS ini."
+      terms_2_text2_3: "2.3 Aplikasi boleh menyimpan Kelayakan Log Masuk ke dalam cakera keras fizikal tempatan peranti di mana Aplikasi digunakan
+                      dan kemudiannya secara automatik menawarkan Kelayakan Log Masuk yang disimpan semasa Aplikasi dilancarkan semula (fungsi biasanya dikenali sebagai 'auto-fill')."
+      terms_2_text2_4: "2.4 Aplikasi menyambungkan ke akaun perdagangan (Akaun) dan maklumatnya, yang ditentukan oleh Nombor Akaun yang
+                      khusus (sebahagian daripada Kelayakan Log Masuk) semasa memulakan Aplikasi."
+      terms_2_text2_5: "2.5 Aplikasi menyambungkan ke sumber data pasaran sebenar dan menganalisis situasi dalam masa nyata di pasaran berdasarkan strategi perdagangan dan algoritma
+                      sendiri untuk tujuan mencari peluang perdagangan yang berpotensi menguntungkan dan/atau untuk tujuan menunggu
+                      peluang perdagangan yang berpotensi menguntungkan seperti itu."
+      terms_2_text2_6: "2.6 Aplikasi menghantar arahan perdagangan (perintah beli dan/atau jual) kepada Akaun dan menjalankan perdagangan sebenar di Akaun.
+                      Aplikasi boleh membuka dan/atau mengubah dan/atau menutup perdagangan (s) di Akaun menggunakan jumlah perdagangan apa pun (dengan margin/leveraj) dan arah perdagangan apa pun (BELI atau JUAL)
+                      berdasarkan strategi perdagangan dalam dan pengurusan risiko dan algoritma yang dilaksanakan dalam Aplikasi."
+      terms_2_text2_7: "2.7 Aplikasi boleh membuka dan/atau mengubah dan/atau menutup satu atau lebih perdagangan di Akaun dan/atau beberapa perdagangan untuk tujuan perdagangan
+                      dalam Akaun mengikut strategi perdagangan dalam dan pengurusan risiko dan algoritma (seperti yang dijelaskan dalam perenggan 2.6 dalam ToS ini)"
+      terms_2_text2_8: "2.8 Pembukaan dan pengurusan semua perdagangan dan kitar hidup dan pengurusan risiko dikawal oleh strategi perdagangan dalam,
+                      pengurusan risiko dan algoritma Aplikasi."
+      terms_2_text2_9: "2.9 Perdagangan yang dibuat oleh Aplikasi mempunyai impak sebenar, tidak boleh diubah dan tidak boleh dipulangkan secara
+                      akhir dan tidak boleh dipulangkan atau
+                      diubah atau dipulangkan semula secara kewangan dengan cara mana pun dan/atau oleh mana-mana pihak dan semua perdagangan yang ditutup adalah akhir (termasuk untung perdagangan masing-masing
+                      dan/atau kerugian)."
+      terms_2_text2_10: "2.10 Aplikasi membuat keputusan perdagangan dan pengiraan secara tempatan pada peranti di mana Aplikasi dilancarkan.
+                      Strategi perdagangan dan logik perdagangan dilaksanakan di dalam kod Aplikasi di peranti di mana Aplikasi
+                      dilancarkan."
+      terms_2_text2_11: "2.11 Pada bila-bila masa anda boleh mematikan Aplikasi dengan menghentikannya pada peranti di mana Aplikasi dilancarkan. Sekali
+                      bila Aplikasi sepenuhnya dimatikan, maka perdagangan yang dibuka sebelumnya (dan belum ditutup) sebelum mematikan (atau menghentikan)
+                      Aplikasi tidak akan ditutup secara automatik, dan anda diwajibkan untuk mengekalkan dan menguruskan perdagangan tersebut dan secara manual, dan menutup mereka jika
+                      diperlukan. Perdagangan tersebut tidak dikawal dan/atau dijaga dan/atau diuruskan oleh Aplikasi lagi setelah
+                      Aplikasi dimatikan."
+      terms_2_text2_12: "2.12 Apabila menggunakan Aplikasi, anda menerima dan bersetuju untuk bertanggungjawab sepenuhnya terhadap semua akibat yang timbul daripada menggunakan Aplikasi,
+                      termasuk (tetapi tidak terhad kepada) tanggungjawab penuh untuk sebarang risiko teknikal, kegagalan teknikal dan/atau kerosakan,
+                      kerosakan kewangan apa pun, termasuk (tetapi tidak terhad kepada) semua kerugian kewangan langsung dan tidak langsung dan semua kerugian kewangan langsung dan tidak langsung
+                      akibat perdagangan."
+      terms_2_text2_13: "2.13 Menggunakan Aplikasi adalah atas risiko anda sendiri dan dengan menggunakan Aplikasi ini anda dengan ini mengecualikan semua hak anda dan tuntutan untuk meminta sebarang
+                      jenis tanggungjawab dan/atau pampasan (dan/atau bahagian daripadanya) daripada mana-mana pihak ketiga untuk sebarang
+                      kerosakan kewangan yang berpotensi dan/atau kerugian kewangan (dan/atau bahagian daripadanya) yang disebabkan oleh Aplikasi (secara langsung atau tidak langsung) atau disebabkan oleh mana-mana bahagian atau
+                      modul atau submodul Aplikasi."
+      terms_2_text2_14: "2.14 Menggunakan Aplikasi tidak dapat menjamin keuntungan masa depan dan selalu ada risiko yang sangat tinggi kehilangan semua dana kewangan
+                      ketika menggunakan Aplikasi. Apabila menggunakan Aplikasi, anda bersetuju dengan hasil perdagangan, keuntungan dan kerugian dan semua yang timbul
+                      akibat, adalah atas risiko dan kos anda sendiri."
+      terms_2_text2_15: "2.15 Jika anda memilih untuk mengubah atau menutup secara manual perdagangan yang sebelumnya diinisiasi oleh Aplikasi, anda mengakui dan
+                      menerima bahawa tindakan tersebut boleh mengganggu strategi perdagangan dan pengurusan risiko dalaman Aplikasi, yang boleh menyebabkan
+                      hasil yang tidak dapat diramalkan dan tidak stabil. Aplikasi tidak direka untuk mengakomodasi campur tangan manual seperti itu."
+      terms_2_text2_16: "2.16 Algoritma perdagangan dalaman Aplikasi, yang bertanggungjawab untuk menentukan pelaksanaan perdagangan BELI atau JUAL
+                      bagi instrumen tertentu, boleh mengalami perubahan, kemas kini, peningkatan, atau perubahan pada bila-bila masa tanpa notis terlebih dahulu. Perubahan ini boleh memberi kesan besar terhadap
+                      fungsi dan tingkah laku Aplikasi, yang boleh mengakibatkan berbagai
+                      hasil, termasuk kesan negatif yang ketara pada kestabilan dan prestasi Aplikasi, yang boleh membawa kepada kerugian yang tidak dijangka."
+      terms_2_text2_17: "2.17 Perubahan, kemas kini, peningkatan, atau perubahan yang disebutkan dalam bahagian 2.16 boleh juga mempengaruhi aktiviti yang diterangkan dalam
+                      bahagian 2.5, 2.6, 2.7, dan 2.8 Aplikasi. Perubahan ini mungkin mengandungi bug dan ralat yang tidak dapat dijangka sebelumnya,
+                      yang belum diidentifikasi sebelum pengekalan atau pelepasan mereka. Perubahan seperti itu boleh mengakibatkan ralat yang tidak dijangka, kegagalan,
+                      kesilapan, dan kerugian perdagangan yang signifikan."
+      terms_all_title_3: "3. privasi dan keselamatan"
+      terms_3_text3_1: "3.1 Kerana fungsi auto-fill, Kelayakan Log Masuk disimpan secara tempatan dalam fail teks ciri bukan terenkripsi ke dalam cakera keras fizikal tempatan peranti di mana Aplikasi dilancarkan dan/atau digunakan. Anda diwajibkan untuk memastikan ini dan mana-mana fail yang dicipta secara tempatan dan/atau fail yang berkaitan dengan Aplikasi dilindungi dengan betul dan tidak dikongsi dengan mana-mana pihak ketiga(ies) dan/atau mana-mana aplikasi perisian lain selain daripada Aplikasi itu sendiri."
+      terms_3_text3_2: "3.2 Atas alasan keselamatan, anda diberi kuasa untuk menggunakan hanya API-Key yang mempunyai kebenaran untuk hanya melihat Akaun dan menjalankan perdagangan pada Akaun. Anda TIDAK diberi kuasa untuk menggunakan API-Key yang mempunyai kebenaran untuk menghantar dan/atau menandatangani dan/atau membatalkan pemindahan (dan/atau pengeluaran) pada mana-mana akaun."
+      terms_3_text3_3: "3.3 Apabila menggunakan Kelayakan Log Masuk dengan Aplikasi, anda diwajibkan untuk menyimpan Kelayakan Log Masuk untuk kegunaan peribadi anda sahaja. Anda tidak diberi kuasa untuk mendedahkan dan/atau berkongsi Kelayakan Log Masuk dengan mana-mana pihak ketiga(ies) (termasuk tetapi tidak terhad kepada, mana-mana aplikasi perisian lain atau robot perdagangan yang serupa) selain daripada Aplikasi itu sendiri dan situasi yang dijelaskan dalam dokumen ini."
+      terms_3_text3_4: "3.4 Aplikasi menghantar maklumat sensitif mengenai perdagangan yang dibuat oleh Aplikasi pada Akaun ke pelayan jauh kami. Ini termasuk (tetapi tidak terhad kepada) perdagangan UID, harga buka perdagangan, harga tutup, jumlah, untung/kerugian dan lain-lain. Ini membolehkan Aplikasi mengira dengan tepat Harga untuk menggunakan Aplikasi (lihat artikel 7.PENENTUAN HARGA dalam dokumen ini)."
+      terms_all_title_4: "4. amaran risiko"
+      terms_4_text4_1: "4.1 Perdagangan dalam talian di mana-mana pasaran (termasuk tetapi tidak terhad kepada Saham, Forex, CFD, dll.) adalah sangat spekulatif, dan ia selalu datang dengan risiko tinggi kehilangan semua dana kewangan anda dengan cepat disebabkan oleh (tetapi tidak terhad kepada) leverage yang tinggi. Perdagangan sedemikian dan Aplikasi ini tidak sesuai untuk semua pelabur. Aplikasi ini kompleks dan spekulatif, dan di bawah sebarang keadaan anda tidak boleh merisikokan lebih daripada yang anda sedia untuk kehilangan. Anda perlu mempertimbangkan sama ada anda memahami cara perdagangan sedemikian dan bagaimana Aplikasi berfungsi dan sama ada anda mampu untuk mengambil risiko tinggi kehilangan semua dana kewangan yang dilaburkan. Cari nasihat bebas jika perlu. Jika anda tidak memahami dengan betul prinsip perdagangan sedemikian dan/atau prinsip Aplikasi ini dan/atau risiko tinggi yang berkaitan dengan Aplikasi ini, maka anda TIDAK diberi kuasa untuk menggunakan Aplikasi ini."
+      terms_4_text4_2: "4.2 Apabila menggunakan Aplikasi ini, banyak peristiwa yang tidak dapat diramalkan dan/atau tidak dijangka boleh memberikan kesan besar terhadap hasil perdagangan dan/atau keuntungan dan/atau kerugian perdagangan yang berkaitan/berhasil. Antara perkara lain ini juga termasuk (tetapi tidak terhad kepada) kesilapan perisian, bug perisian, kesilapan perisian, kesilapan atau bug atau kesilapan yang dibuat atau disebabkan oleh Aplikasi, keghairahan pasaran, likuiditi pasaran, kemalangan apa pun, mati lampu, gangguan dalam operasi, gangguan sambungan internet, terlalu banyak perdagangan yang kalah berturut-turut, kegagalan Aplikasi atau kegagalan mana-mana perisian atau perkakas keras dan banyak faktor lain yang mungkin tidak berada di bawah kawalan anda. Jika anda tidak menerima dan/atau anda tidak bersetuju untuk bertanggungjawab penuh terhadap peristiwa/kejadian/kecelakaan sedemikian (dan semua peristiwa/kejadian/kecelakaan lain yang serupa) dan/atau peristiwa/kejadian/kecelakaan tersebut, maka anda TIDAK diberi kuasa untuk menggunakan Aplikasi ini."
+      terms_4_text4_3: "4.3 Mengingatkan sifat spekulatif dan tidak dapat diramalkan Aplikasi ini, dan potensi untuk peristiwa yang tidak dijangka, kelemahan, atau kesilapan yang boleh mengakibatkan kerugian modal perdagangan, anda dinasihatkan dengan tegas untuk memantau Aplikasi ini secara langsung. Jika anda meramalkan ketidakupayaan untuk memantau Aplikasi ini dengan rapat dan Akaun yang berkaitan atau untuk campur tangan jika terdapat masalah, disyorkan agar anda menjeda Aplikasi ini. Hanya meneruskan penggunaannya apabila anda boleh memantau dan campur tangan secara aktif jika diperlukan."
+      terms_4_text4_4: "4.4 Menggunakan Aplikasi ini pada akaun perdagangan yang berbeza boleh menghasilkan prestasi yang berbeza dan boleh menyebabkan keuntungan dan kerugian yang berbeza. Perdagangan algoritmik melibatkan banyak pembolehubah dan faktor yang tidak dapat diramalkan, dan sementara menggunakan Aplikasi ini pada satu akaun perdagangan boleh menghasilkan keuntungan, Aplikasi yang sama pada akaun lain boleh menghasilkan kerugian. Terdapat risiko tinggi untuk banyak faktor yang tidak dapat diramalkan dan bahkan butiran yang paling kecil boleh mengakibatkan hasil yang sangat berbeza dan keluaran serta tingkah laku keseluruhan Aplikasi apabila digunakan pada akaun perdagangan yang berbeza dalam persekitaran yang sama dan/atau dalam keadaan yang sama."
+      terms_4_text4_5: "4.5 Aplikasi ini, tingkah lakunya, hasil, nisbah kejayaan dan prestasinya adalah sangat tidak dapat diramalkan, spekulatif, dan tidak ada jaminan sama sekali."
+      terms_4_text4_6: "4.6 Keuntungan masa lalu tidak menjamin keuntungan masa depan. Mana-mana strategi perdagangan yang menguntungkan (termasuk Aplikasi ini) boleh menyebabkan kerugian besar kepada dana kewangan anda. Aplikasi ini tidak datang dengan jaminan sama sekali. Tidak ada jaminan keuntungan dan tidak ada jaminan penyingkiran sebarang risiko apabila menggunakan Aplikasi ini."
+      terms_4_text4_7: "4.7 Aplikasi ini boleh menerima kemas kini jauh secara automatik dan/atau peningkatan dan/atau modifikasi yang serupa tanpa notis terlebih dahulu. Kemas kini ini boleh mengakibatkan ralat dan bug yang tidak diidentifikasi atau dialami sebelum ini. Isu seperti ini boleh memberikan kesan yang signifikan terhadap prestasi algoritma perdagangan, algoritma pengurusan risiko, fungsionaliti keseluruhan, kestabilan, dan keuntungan Aplikasi. Tambahan pula, kemas kini dan perubahan Aplikasi boleh membawa perubahan drastik dalam cara Aplikasi beroperasi, tingkah lakunya, dan perdagangan, yang boleh mengakibatkan kerugian yang signifikan dan hasil perdagangan yang merugikan yang sebelum ini tidak merupakan ciri Aplikasi ini."
+      terms_4_text4_8: "4.8 Apabila menggunakan Aplikasi ini, anda dengan ini mengecualikan semua hak dan tuntutan anda untuk menuntut sebarang jenis pampasan (dan/atau bahagian daripada) bagi sebarang jenis kerosakan (dan/atau bahagian daripada) yang berkaitan dan/atau timbul daripada dan/atau berpunca daripada menggunakan Aplikasi ini, daripada mana-mana pihak ketiga(ies) (termasuk tetapi tidak terhad kepada pencipta dan/atau pengarang dan/atau pengedar dan/atau penyebar Aplikasi ini). Perenggan ini merangkumi (tetapi tidak terhad kepada) sebarang jenis kerosakan kewangan dan bukan kewangan (kedua-duanya secara langsung dan tidak langsung), kerugian kewangan, kerugian perdagangan, kerosakan teknikal, kerosakan perkakas keras dan/atau perisian."
+      terms_4_text4_9: "4.9 Akaun dan semua dana kewangan asas di atasnya disimpan dan dilindungi oleh pihak ketiga yang menyediakan anda dengan perkhidmatan perdagangan dan yang memelihara Akaun. Ini adalah tanggungjawab dan kewajipan anda semata-mata untuk memberi perhatian kepada semua risiko yang berkaitan dengan dan/atau berpunca daripada pihak ketiga sedemikian dan perkhidmatannya."
+      terms_4_text4_10: "4.10 Penggunaan Aplikasi ini boleh mempunyai impak negatif yang signifikan kepada gaya hidup dan status kewangan anda."
+      terms_all_title_5: "5. penafian"
+      terms_5_text5_1: "5.1 Tiada pihak ketiga(ies) (termasuk tetapi tidak terhad kepada pencipta dan/atau pengarang dan/atau pengedar dan/atau penyebar Aplikasi) bertanggungjawab (secara kewangan atau sebaliknya) terhadap sebarang jenis kerugian dan/atau kerosakan dan/atau akibat (termasuk tetapi tidak terhad kepada kerosakan kewangan dan bukan kewangan, kerugian kewangan, kerugian perdagangan) yang berkaitan dan/atau timbul daripada menggunakan Aplikasi ini (secara langsung dan/atau tidak langsung)."
+      terms_5_text5_2: "5.2 Aplikasi ini (termasuk tetapi tidak terhad kepada pencipta dan/atau pengarang dan/atau pengedar dan/atau penyebar Aplikasi) tidak bertanggungjawab untuk menerima atau memproses atau menyimpan deposit anda atau integriti kewangan dan/atau kecairan dana anda."
+      terms_5_text5_3: "5.3 Aplikasi ini (termasuk tetapi tidak terhad kepada pencipta dan/atau pengarang dan/atau pengedar dan/atau penyebar Aplikasi) tidak bertanggungjawab terhadap perkhidmatan perdagangan yang diberikan kepada anda oleh pihak ketiga, dan/atau terhadap sebarang risiko yang berkaitan secara langsung atau tidak langsung dengan perkhidmatan tersebut dan/atau dengan pihak ketiga tersebut."
+      terms_5_text5_4: "5.4 Aplikasi ini (termasuk tetapi tidak terhad kepada pencipta dan/atau pengarang dan/atau pengedar dan/atau penyebar Aplikasi) tidak memberikan jaminan kebolehbandingan (termasuk tetapi tidak terhad kepada kesetaraan, persamaan, korelasi) hasil perdagangan, atau prestasi perdagangan, atau nisbah kejayaan, dan sebagainya antara dua akaun perdagangan di mana Aplikasi ini digunakan dalam persekitaran yang sama dan/atau dengan input yang sama dan/atau faktor input yang sama."
+      terms_5_text5_5: "5.5 Semua bahan promosi, yang menyebut dan/atau menerangkan dan/atau menjelaskan dan/atau mempromosikan Aplikasi ini, termasuk tetapi tidak terhad kepada maklumat, penerangan, penjelasan, statistik, prestasi terdahulu, statistik akaun perdagangan lain, pengiraan dan sebagainya, hanya mempunyai sifat informatif dan ketepatan mereka tidak dijamin."
+      terms_all_title_6: "6. peruntukan lain"
+      terms_6_text6_1: "6.1 Akaun ini bukan akaun Aplikasi."
+      terms_6_text6_2: "6.2 Aplikasi ini (termasuk tetapi tidak terhad kepada pencipta dan/atau pengarang dan/atau pengedar dan/atau penyebar Aplikasi) tidak menerima atau memproses atau menyimpan deposit perdagangan anda. Deposit perdagangan anda diterima, diproses dan disimpan pada akaun perdagangan peribadi anda (Akaun) di dalam penyedia perkhidmatan pihak ketiga (Broker) yang menyediakan anda dengan Akaun dan perkhidmatan perdagangan."
+      terms_6_text6_3: "6.3 Arahan deposit, yang dipaparkan dalam Aplikasi, adalah arahan yang dimuat turun daripada Akaun yang Aplikasi disambungkan kepadanya. Aplikasi ini tidak menjamin keselamatan atau ketepatan arahan sedemikian."
+      terms_6_text6_4: "6.4 Anda dengan tegas dilarang daripada menyalin, menggandakan, atau sebaliknya memindahkan arahan perdagangan Aplikasi ini, sama ada secara langsung atau tidak langsung, ke mana-mana akaun perdagangan selain daripada Akaun yang Aplikasi ini dilancarkan."
+      terms_6_text6_5_1: "6.5 Versi Aplikasi ini, termasuk kod dan algoritmanya, yang dipasang di aplikasi"
+      terms_6_text6_5_2: ", mungkin berbeza daripada versi yang boleh dimuat turun daripada laman web ini. Perbezaan dalam versi ini boleh menghasilkan hasil yang berbeza, hasil, keuntungan, kerugian, dan prestasi secara umum."
+      terms_6_text6_6: "6.6 Pada sebarang masa, anda tidak berhak, dan tidak memiliki hak, kepada mana-mana kod yang berkaitan dengan Aplikasi ini (termasuk tetapi tidak terhad kepada kod sumber dan kod binari). Selanjutnya, kami tidak berkewajiban untuk memberikan anda kod sedemikian."
+      terms_6_text6_7: "6.7 Anda memahami dan menerima hakikat bahawa komponen tertentu Aplikasi ini (seperti penjelasan terperinci tertentu mengenai strategi perdagangan dalaman, pengurusan risiko, model, dan sebagainya) tidak didedahkan kepada anda atau orang awam umum. Komponen ini merangkumi kepandaian hak milik dan rahsia perdagangan Aplikasi ini."
+      terms_6_text6_8: "6.8 Pada sebarang masa, pembayaran yang dibuat oleh anda untuk penggunaan Aplikasi ini atau langganan Aplikasi ini tidak boleh dianggap sebagai pembelian Aplikasi, hak cipta, hak PI, atau kod sumber atau kod binari ke dalam milikan anda."
+      terms_all_title_7: "7. penentuan harga"
+      terms_7_text7_1: "7.1 Harga penggunaan Aplikasi ditetapkan sebanyak 10% daripada Jumlah Keuntungan Bersih yang dihasilkan di dalam Akaun oleh Aplikasi. Istilah 'Keuntungan Bersih' merujuk kepada jumlah hasil perdagangan positif (keuntungan) dan perdagangan negatif (kerugian) bersama bagi setiap tempoh tertentu (setiap 3 bulan), dan ia hanya merangkumi perdagangan yang dibuka dan ditutup oleh Aplikasi sahaja."
+      terms_7_text7_2: "7.2 Harga dikira dan perlu dibayar setiap kali selepas 3 bulan kalendar penggunaan Aplikasi."
+      terms_7_text7_3: "7.3 Selain daripada Harga yang dijelaskan dalam artikel ini, tidak ada harga lain dan/atau fi (fiat) untuk penggunaan Aplikasi."
+      terms_7_text7_4: "7.4 Sekiranya Harga tidak dibayar, maka Aplikasi akan disekat secara automatik, dan tidak akan membolehkan penggunaan Aplikasi lagi."
+      terms_7_text7_5: "7.5 Apabila Harga dibayar, ia akan menjadi irreversible dan tidak boleh dikembalikan."
+      terms_7_text7_6: "7.6 Tidak akan ada harga dan/atau fi (fiat) untuk penggunaan Aplikasi sekiranya tiada Keuntungan Bersih di dalam Akaun, atau jika Keuntungan Bersih adalah negatif (kerugian)."
+      terms_7_text7_7: "7.7 Tidak akan ada harga dan/atau fi (fiat) untuk penggunaan Aplikasi selain daripada Harga yang dinyatakan dalam Terma Penggunaan ini."
+      terms_all_title_8: "8. peruntukan terakhir"
+      terms_8_text8_1: "8.1 Anda menyatakan bahawa anda telah memahami sepenuhnya tentang perdagangan di pasaran Forex dan semua prinsip perdagangan dengan Aplikasi dan anda menggunakan Aplikasi ini atas risiko anda sendiri."
+      terms_8_text8_2: "8.2 Anda menyatakan bahawa anda tidak mengharapkan Aplikasi ini atau penggunaannya untuk menjamin keuntungan, dan anda tidak mengharapkan Aplikasi ini atau penggunaannya untuk tidak menyebabkan kerugian kewangan."
+      terms_8_text8_3: "8.3 Anda menyatakan bahawa penggunaan Aplikasi adalah pilihan bebas anda dan atas kehendak bebas anda sendiri, dan anda menyatakan bahawa anda boleh menghentikan penggunaan Aplikasi pada bila-bila masa sebagaimana yang anda inginkan dan bebas untuk memutuskan."
+      terms_8_text8_4: "8.4 Anda menyatakan bahawa anda tidak akan menafsirkan atau menganggap penggunaan Aplikasi ini sebagai perkhidmatan kewangan dan/atau pelaburan, atau perkhidmatan nasihat kewangan dan/atau pelaburan, atau perkhidmatan pengurusan aset, dalam sebarang konteks atau dalam sebarang keadaan."
+      terms_8_text8_5: "8.5 Anda menyatakan bahawa penggunaan Aplikasi ini tidak melanggar dan/atau tidak bercanggah dengan mana-mana undang-undang dalaman anda, dan ia tidak melanggar mana-mana undang-undang dan/atau peraturan yang ditetapkan oleh mana-mana pihak berkuasa di negara anda."
+      terms_8_text8_6: "8.6 Anda menyatakan bahawa anda telah memahami sepenuhnya tentang penggunaan Aplikasi ini, bagaimana untuk memulakan dan menghentikan penggunaannya dan bagaimana untuk memulakan dan menghentikan semua fungsi dan operasi perdagangan Aplikasi pada bila-bila masa yang anda kehendaki."
+      terms_8_text8_7: "8.7 Anda menyatakan bahawa tiada halangan sama ada dalam melancarkan atau dalam menghentikan Aplikasi."
+      terms_8_text8_8: "8.8 Anda menyatakan bahawa anda telah membaca dengan sepenuh hati dan memahami sepenuhnya isi penuh Terma Penggunaan ini dan anda menerima sepenuhnya dan bersetuju sepenuhnya dengan Terma Penggunaan ini dalam isi penuhnya dan Terma Penggunaan ini adalah sah di sisi undang-undang kepada anda."
+      terms_8_text8_9_1: "8.9 Anda menyatakan bahawa jika anda menggunakan APPGENTER, yang tersedia di"
+      terms_8_text8_9_2: ", anda telah membaca dengan sepenuh hati dan memahami sepenuhnya isi penuh Terma Penggunaan, yang tersedia di"
+      terms_8_text8_9_3: ", dan anda menerima sepenuhnya dan bersetuju sepenuhnya dengan Terma Penggunaan dalam isi penuhnya dan Terma Penggunaan ini adalah sah di sisi undang-undang kepada anda."
+    privacy_cookies:
+      prico_title: "Privasi dan Kuki"
+      prico_desc: "Dengan menggunakan mana-mana perkhidmatan atau produk kami, anda bersetuju dengan dokumen ini dalam kontennya yang penuh. Hentikan penggunaan semua perkhidmatan dan produk kami jika anda tidak bersetuju dengan dokumen ini dalam kontennya yang penuh dan/atau dengan mana-mana bahagian dokumen ini."
+      prico_desc2: "Kami mengumpul data peribadi, tingkah laku, dan jenis data lain yang anda bersetuju untuk berkongsi dengan kami sebelum menggunakan semua hartanah web kami, termasuk versi bahasa mereka dan subdomain. Dalam kes ini, anda akan dimaklumkan tentang ini dan diminta persetujuan terlebih dahulu."
+      prico_desc3: "Mana-mana maklumat tentang aktiviti anda yang dikumpul oleh kami hanya digunakan untuk tujuan perniagaan dan bertujuan untuk meningkatkan kualiti perkhidmatan, menyediakan anda dengan maklumat tentang perkhidmatan dan produk baru dengan cepat."
+      prico_all_title_1: "Jenis data yang kami kumpul?"
+      prico_1_text_1_1: "Kami mungkin mengumpul, menyimpan, dan menggunakan data peribadi berikut, termasuk tetapi tidak terhad kepada:"
+      prico_1_text_1_2: "Data identiti dan hubungan: nama anda, alamat, nombor telefon, alamat e-mel, atau sebarang pengenal pasti lain apabila anda membeli robot kami."
+      prico_1_text_1_3: "Data penggunaan teknikal: alamat IP dan lokasi anda, jenis dan versi pelayar, jenis dan model peranti, sistem operasi, dan sebarang data lain yang berkaitan dengan ciri-ciri peranti yang anda gunakan untuk mengakses dan menggunakan laman web kami."
+      prico_1_text_1_4: "Data tingkah laku: semua data yang berkaitan dengan tingkah laku anda di laman web kami - klik pada pautan, muat turun, skrol, dan lain-lain."
+      prico_1_text_1_5: "Data pemasaran: persetujuan untuk menerima bahan pemasaran dan iklan daripada kami serta jenis saluran komunikasi dan bahasa mesej."
+      prico_all_title_2: "Polisi Kuki"
+      prico_2_text_2_1: "Kuki adalah fail yang mengandungi maklumat yang digunakan oleh laman web untuk mendaftar lalu lintas. Maklumat ini dari pelayan laman web sementara disimpan di cakera keras komputer atau peranti mudah alih anda apabila anda melawat laman web untuk kali pertama dan, seterusnya, membolehkan laman web mengenali pelayar anda."
+      prico_2_text_2_2: "Kami menggunakan kuki untuk menentukan perkhidmatan mana yang paling menarik bagi anda dan mengukur aktiviti pengunjung di laman web ini. Dengan menggunakan kuki, kami juga mengenal pasti iklan yang paling diminta dan menganggarkan populariti sumber berkaitan dengan tujuan pemasaran."
+      prico_all_title_3: "Jenis-jenis kuki yang kami gunakan?"
+      prico_3_text_3_1: "Kuki sesi: jenis kuki ini hanya digunakan semasa sesi anda di laman web kami (apabila anda menggunakan laman web kami) dan disimpan hanya sehingga anda menutup pelayar anda."
+      prico_3_text_3_2: "Kuki analitik: jenis kuki ini mengumpul maklumat tingkah laku mengenai bagaimana anda menggunakan laman web kami dan memindahkannya ke perisian analitik kami di mana ia boleh disimpan sehingga 6 bulan. Maklumat yang disimpan tidak mengandungi nama anda, alamat e-mel, atau maklumat peribadi lain, oleh itu ia adalah anonim. Kami menggunakannya untuk mengesan aktiviti pengguna di halaman web kami, yang membolehkan kami menyediakan pengalaman pengguna yang lancar dan mengesan ketidakakuratan yang mungkin."
+      prico_3_text_3_3: "Kuki promosi: jenis kuki ini digunakan untuk menyediakan iklan yang berkaitan dengan mana-mana pengunjung laman web kami pada masa mereka tidak menggunakan mana-mana produk atau perkhidmatan kami. Ia mungkin mengandungi kuki pihak ketiga daripada satu atau lebih rakan pengiklan kami."
+      prico_3_text_3_4: "Kuki keutamaan dan fungsi: jenis kuki ini menentukan pilihan yang anda buat semasa menggunakan laman web kami, sama ada bahasa laman web atau menutup tetingkap pop-up."
+      prico_all_title_4: "Bagaimana menguruskan keutamaan kuki"
+      prico_4_text_4_1: "Anda boleh memadamkan kuki yang diletakkan pada komputer anda semasa melawat laman web kami dengan menggunakan tetapan pelayar anda. Arahan pengurusan kuki dalam pelayar-pelayar yang paling popular boleh dijumpai di bawah:"
+      prico_4_text_4_2: "Google Chrome - "
+      prico_4_text_4_3: "Microsoft Edge - "
+      prico_4_text_4_4: "Mozila Firefox - "
+      prico_4_text_4_5: "Microsoft Internet Explorer - "
+      prico_4_text_4_6: "Opera - "
+      prico_4_text_4_7: "Apple Safari - "
+      prico_4_text_4_8: "Pastikan anda memahami sepenuhnya bahawa memadamkan kuki boleh memberi kesan kepada fungsi yang anda gunakan di laman web kami dan laman web lain."
+      prico_all_title_5: "Apa yang kami kumpul dan proseskan data peribadi anda untuk?"
+      prico_5_text_5_1: "Tujuan utama dan matlamat mengumpul data peribadi selaras dengan perundangan dijelaskan di bawah:"
+      prico_5_text_5_2: "Analisis data: kami menggunakan pelbagai alat untuk mengumpulkan data tingkah laku dan kuantitatif tentang pengguna laman web kami dan pelanggan e-mel kami bagi memberikan pengalaman pengguna yang terbaik dan kandungan yang relevan."
+      prico_5_text_5_3: "Tujuan pemasaran: jika anda bersetuju untuk menerima bahan komunikasi pemasaran kami, kami akan menggunakan data peribadi yang anda berikan untuk menghantar maklumat tentang produk, perkhidmatan, dan acara yang akan datang."
+      prico_5_text_5_4: "Pertanyaan aduan: untuk menjalankan pertanyaan mengenai aduan anda, kami boleh menggunakan data yang anda telah berikan sebelum ini."
+      prico_all_title_6: "Siapa yang mungkin kami dedahkan data peribadi anda kepada?"
+      prico_6_text_6_1: "Kami berhak untuk mendedahkan data peribadi dalam jumlah yang diperlukan dan untuk tujuan di atas kepada:"
+      prico_6_text_6_2: "Pembekal pemasaran dan pengiklanan pihak ketiga;"
+      prico_6_text_6_3: "Pembekal perkhidmatan pihak ketiga;"
+      prico_6_text_6_4: "Syarikat-syarikat bersekutu dan yang berkaitan;"
+      prico_6_text_6_5: "Badan-badan pemerintah;"
+      prico_6_text_6_6: "Pemeriksa dan kontraktor;"
+      prico_6_text_6_7: "Sesiapa yang diberi kuasa oleh anda."
+      prico_6_text_6_8: "Sila ambil perhatian bahawa data peribadi anda tidak akan pernah didedahkan kepada mana-mana pihak ketiga yang tidak dikenali oleh kami dan dengan mana-mana pihak kami tidak mempunyai perjanjian yang sesuai. Dalam mana-mana keadaan, anda akan dimaklumkan tentang ini dan harus memberi persetujuan terlebih dahulu untuk aktiviti-aktiviti ini selaras dengan GDPR."
+      prico_all_title_7: "Pemindahan data di luar EEA"
+      prico_7_text_7_1: "Kami tidak memindahkan data anda daripada EU/EEA di luar EEA."
+      prico_all_title_8: "Hak pengguna dari EU/EEA mengenai data peribadi mereka"
+      prico_8_text_8_1: "Menurut undang-undang, anda mempunyai hak-hak berikut mengenai data peribadi anda yang kami simpan dan proses:"
+      prico_8_text_8_2: "1. Hak untuk diberitahu tentang pemprosesan data peribadi anda dan data apa yang tepatnya kami sedang memproses."
+      prico_8_text_8_3: "2. Hak akses kepada data peribadi anda."
+      prico_8_text_8_4: "3. Hak untuk membetulkan data peribadi anda jika ia tidak tepat atau tidak terkini."
+      prico_8_text_8_5: "4. Hak untuk memadamkan data peribadi anda dari pelayan kami atas permintaan yang dibenarkan."
+      prico_8_text_8_6: "5. Hak untuk menghadkan pemprosesan data peribadi anda (yang tidak merangkumi penyimpanannya)."
+      prico_8_text_8_7: "6. Hak kepada mudah alih data. Dalam keadaan tertentu, anda mempunyai hak untuk mendapatkan semua data peribadi anda yang kami simpan dalam format mesin yang boleh dibaca."
+      prico_8_text_8_8: "7. Hak untuk membantah pemprosesan data peribadi anda."
+      prico_8_text_8_9: "8. Hak untuk tidak menjadi subjek keputusan automatik termasuk profil jika ia tidak campur tangan dalam menjalankan kontrak antara anda dan kami."
+      prico_8_text_8_10: "Berdasarkan hak anda, kami ingin memaklumkan bahawa anda boleh melaksanakan hak yang tersebut di atas jika ia tidak bercanggah dengan sebarang keperluan undang-undang atau peraturan."      
   activerecord:
     attributes:
       enquiry:

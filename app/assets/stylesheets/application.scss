@@ -22,7 +22,22 @@
  @import "projects.scss";
  @import "products.scss";
  @import "flash.scss";
+ @import "terms.scss";
+ @import "privacy_cookies.scss";
 
 body{
     overflow-x: hidden;
+}
+
+/* For Webkit-based browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(230, 70, 70); /* Color of the thumb (the draggable part) */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track (the non-draggable part) */
 }

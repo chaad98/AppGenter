@@ -9,6 +9,15 @@
         <div class="navbar-links">
             <%= link_to t('.menu_link2'), products_path, class: "nav-link" %>
             <%= link_to t('.menu_link4'), contact_path, class: "nav-link" %>
+            <div class="language-dropdown">
+                <button class="language-button" id="language-dropdown-button"><%= t 'languages.lang_btn' %></button>
+                <ul class="language-list">
+                    <li><%= link_to t('languages.english'), url_for(locale: :en) %></li>
+                    <li><%= link_to t('languages.malay'), url_for(locale: :bm) %></li>
+                    <li><%= link_to t('languages.chinese'), url_for(locale: :cn) %></li>
+                </ul>
+            </div>
+            <!--
             <ul class="navbar-nav ml-lg-auto navbar-list">
             <% I18n.available_locales.each_with_index do |locale, index| %>
                 <li class="nav-lang">
@@ -18,11 +27,12 @@
                     <%= link_to t(locale, scope: 'locales'), url_for(locale: locale), class: 'locale-link' %>
                 <% end %>
                 <% unless index == I18n.available_locales.size - 1 %>
-                    |&nbsp; <!-- Add spaces and the separator "|" unless it's the last language -->
+                    |&nbsp; -- Add spaces and the separator "|" unless it's the last language --
                 <% end %>
                 </li>
             <% end %>
             </ul>
+            -->
         </div>
   </div>
 </div>
