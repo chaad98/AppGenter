@@ -34,11 +34,7 @@ en:
       section2_text6: "Management of personnel with shift, overtime and public holiday settings, customization upon HR policy into system to fit in various circumstances."
       section3_about: "About Us"
       section3_title: "Humanizing and embracing technology, knowledge and innovation for a better way of life."
-<<<<<<< HEAD
       section3_desc: "APPGENTER LIMITED is incorporated and designed to provide businesses with competitive edge by supporting access to business information, with the top professionals in Artificial Intelligence (AI), Internet of Things (IoT), and Big Data in Fintech and Mobile Technologies. Our APPGENTER solutions comprises of proven business methodologies for businesses to remain in contact while the whole world is in the period of Social Distancing and Contactless."
-=======
-      section3_desc: "ALGODLA SDN. BHD. is incorporated and designed to provide businesses with competitive edge by supporting access to business information, with the top professionals in Artificial Intelligence (AI), Internet of Things (IoT), and Big Data in Fintech and Mobile Technologies. Our APPGENTER solutions comprises of proven business methodologies for businesses to remain in contact while the whole world is in the period of Social Distancing and Contactless."
->>>>>>> 6016db59a879f0d4d4947c21cc7527b746deaa0c
       section4_product: "Our Products"
       section4_title: "Digitalize Your Business With Us"
       section5_clients: "Clients Worldwide"
@@ -134,11 +130,7 @@ en:
       footer_left_heading: "APPGENTER LIMITED"
       footer_left_desc_hk: "Room 1204A Tower 2, 12/F., Lippo Centre, 89 Queensway, Admiralty, Hong Kong"
       footer_left_desc_one: "Menara Worldwide, Level 25,  198 Jln Bukit Bintang,"
-<<<<<<< HEAD
       footer_left_desc_two: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia"
-=======
-      footer_left_desc_two: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
->>>>>>> 6016db59a879f0d4d4947c21cc7527b746deaa0c
       footer_middle_heading: "Quick Links"
       footer_middle_desc1: "APPGENTER"
       footer_middle_desc2: "Products"
