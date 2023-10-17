@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[7.0].define(version: 2023_10_03_155805) do
+=======
+ActiveRecord::Schema[7.0].define(version: 2023_10_03_154336) do
+>>>>>>> 6016db59a879f0d4d4947c21cc7527b746deaa0c
   create_table "enquiries", force: :cascade do |t|
     t.string "name"
     t.string "email"

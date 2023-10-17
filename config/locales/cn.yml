@@ -34,7 +34,11 @@ cn:
       section2_text6: "管理人员轮班、加班和公共假期设置，根据人力资源政策进行定制以适应各种情况。"
       section3_about: "关于我们"
       section3_title: "以更好的生活方式来人性化和拥抱技术、知识和创新。"
+<<<<<<< HEAD
       section3_desc: "APPGENTER LIMITED 公司旨在通过支持获取商业信息，并与人工智能（AI）、物联网（IoT）和金融科技和移动技术领域的顶尖专业人员合作，为企业提供竞争优势。我们的 AppGenter 解决方案包括经过验证的业务方法，使企业在整个世界都在社交隔离和无接触时期保持联系。"
+=======
+      section3_desc: "ALGODLA SDN. BHD. 公司旨在通过支持获取商业信息，并与人工智能（AI）、物联网（IoT）和金融科技和移动技术领域的顶尖专业人员合作，为企业提供竞争优势。我们的 AppGenter 解决方案包括经过验证的业务方法，使企业在整个世界都在社交隔离和无接触时期保持联系。"
+>>>>>>> 6016db59a879f0d4d4947c21cc7527b746deaa0c
       section4_product: "我们的产品"
       section4_title: "与我们一起数字化您的业务"
       section5_clients: "全球客户"
@@ -130,7 +134,11 @@ cn:
       footer_left_heading: "APPGENTER LIMITED"
       footer_left_desc_hk: "Room 1204A Tower 2, 12/F., Lippo Centre, 89 Queensway, Admiralty, Hong Kong"
       footer_left_desc_one: "Menara Worldwide, Level 25,  198 Jln Bukit Bintang,"
+<<<<<<< HEAD
       footer_left_desc_two: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia"
+=======
+      footer_left_desc_two: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
+>>>>>>> 6016db59a879f0d4d4947c21cc7527b746deaa0c
       footer_middle_heading: "快速链接"
       footer_middle_desc1: "应用生成器"
       footer_middle_desc2: "产品"

@@ -1,3 +1,5 @@
+require 'httparty'
+
 class EnquiriesController < ApplicationController
     def index
         @enquiries = Enquiry.all
@@ -15,9 +17,18 @@ class EnquiriesController < ApplicationController
         @enquiry.language = I18n.locale.to_s
         
         if @enquiry.save
+<<<<<<< HEAD
             # Save the data to the JSON file after a new record is created
             save_to_json
 
+=======
+            #Send email
+            # UserMailer.mailer(@enquiry).deliver_now
+
+            # Save the data to the JSON file after a new record is created
+            save_to_json
+
+>>>>>>> 6016db59a879f0d4d4947c21cc7527b746deaa0c
             # Build the JSON data you want to send to the external API
             json_data = @enquiry.attributes.merge(language: I18n.locale.to_s).to_json
 
