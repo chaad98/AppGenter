@@ -1,0 +1,239 @@
+<% content_for :title, "Products – ALGODLA SDN. BHD." %>
+
+<div class="product-container">
+    <div class="product-child one">
+        <div class="product-subchild one" id="prod-sub">
+            <%= t'.product_container_title' %>
+            <br> 
+            <%= t'.product_container_title2' %> <span class="product-span"><%= t'.product_container_title3_span' %></span> <%= t'.product_container_title4' %>
+        </div>
+        <div class="product-subchild two">
+            <div class="product-subtwo-inner one">
+                <%= t'.product_subtwo_title' %>
+                <br>
+                <%= t'.product_subtwo_title2' %>
+            </div>
+            <div class="product-subtwo-inner two">
+                <%= t'.product_subtwo_title3' %>
+            </div>
+            <div class="product-subtwo-inner three">
+                <%= t'.product_subtwo_title4' %>
+            </div>
+        </div>
+        <div class="product-subchild three">
+            <div class="product-subthree-inner one">
+                <%= t'.product_subtwo_title5' %>
+            </div>
+            <div class="product-subthree-inner two">
+                <%= t'.product_subtwo_title6' %>
+            </div>
+            <div class="product-subthree-inner three">
+                <%= t'.product_subtwo_title7' %>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-container2">
+    <div class="product2-child one">
+        <div class="product2-subchild one">
+            <div class="product2-subone-inner one">
+                <div class="subone-title one">
+                </div>
+                <div class="subone-desc one">
+                </div>
+            </div>
+            <div class="product2-subone-inner two">
+                <div class="subone-title two">
+                    <%= t'.product_container2_title' %>
+                </div>
+                <div class="subone-desc two">
+                    <%= t'.product_container2_desc' %>
+                </div>
+            </div>
+            <div class="product2-subone-inner three">
+                <div class="subone-title three">
+                    <%= t'.product_container2_title2' %>
+                </div>
+                <div class="subone-desc three">
+                    <%= t'.product_container2_desc2' %>
+                </div>
+            </div>
+        </div>
+        <div class="product2-subchild two">
+            <div class="product2-subtwo-inner one">
+                <div class="subtwo-title one">
+                </div>
+                <div class="subtwo-desc one">
+                </div>
+            </div>
+            <div class="product2-subtwo-inner two">
+                <div class="subtwo-title two">
+                    <%= t'.product_container2_title3' %>
+                </div>
+                <div class="subtwo-desc two">
+                    <%= t'.product_container2_desc3' %>
+                </div>
+            </div>
+            <div class="product2-subtwo-inner three">
+                <div class="subtwo-title three">
+                    <%= t'.product_container2_title4' %>
+                </div>
+                <div class="subtwo-desc three">
+                    <%= t'.product_container2_desc4' %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-container3">
+    <div class="product3-child one">
+        <div class="product3-subchild one">
+            <div class="product3-subone-inner one">
+                <div class="subone-title one">
+                    <%= t'.product_container3_title' %>
+                </div>
+                <div class="subone-desc one">
+                    <%= t'.product_container3_desc' %>
+                </div>
+            </div>
+            <div class="product3-subone-inner two">
+                <div class="subone-title two">
+                    <%= t'.product_container3_title2' %>
+                </div>
+                <div class="subone-desc two">
+                    <%= t'.product_container3_desc2' %>
+                </div>
+            </div>
+            <div class="product3-subone-inner three">
+                <div class="subone-title three">
+                </div>
+                <div class="subone-desc three">
+                </div>
+            </div>
+        </div>
+        <div class="product3-subchild two">
+            <div class="product3-subtwo-inner one">
+                <div class="subtwo-title one">
+                    <%= t'.product_container3_title3' %>
+                </div>
+                <div class="subtwo-desc one">
+                    <%= t'.product_container3_desc3' %>
+                </div>
+            </div>
+            <div class="product3-subtwo-inner two">
+                <div class="subtwo-title two">
+                    <%= t'.product_container3_title4' %>
+                </div>
+                <div class="subtwo-desc two">
+                    <%= t'.product_container3_desc4' %>
+                </div>
+            </div>
+            <div class="product3-subtwo-inner three">
+                <div class="subtwo-title three">
+                </div>
+                <div class="subtwo-desc three">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-container4">
+    <div class="product4-child one">
+        <div class="product4-subchild one" id="prod4-sub-one">
+            <%= t'.product_plan_title' %> <span class="product4-title"><%= t'.product_plan_title2_span' %></span> <%= t'.product_plan_title3' %>
+        </div>
+        <div class="product4-subchild two" id="prod4-sub-two">
+            <%= t'.product_plan_desc' %>
+        </div>
+        <div class="product4-subchild three">
+            <div class="product4-innerchild one">
+                <div class="product4-plan starter">
+                    <div class="starter-title">
+                        <%= t'.starter_title' %>
+                    </div>
+                    <div class="starter-pricing">
+                        <span class="rm"><%= t'.starter_pricing' %></span>
+                        <span class="amount"><%= t'.starter_pricing2' %></span>
+                        <span class="per-year"><%= t'.starter_pricing3' %></span>
+                    </div>
+                    <div class="starter-item">
+                        <span class="s-one"><%= t'.starter_items' %></span>
+                        <span class="s-two"><%= t'.starter_items2' %></span>
+                        <span class="s-three"><%= t'.starter_items3' %></span>
+                        <span class="s-four"><%= t'.starter_items4' %></span>
+                    </div>
+                    <div class="starter-button">
+                        <%= link_to t('.product_plan_button'), contact_path, class: "go-green" %>
+                    </div>
+                </div>
+            </div>
+            <div class="product4-innerchild two">
+                <div class="product4-plan premium">
+                    <div class="premium-title">
+                        <%= t'.premium_title' %>
+                    </div>
+                    <div class="premium-pricing">
+                        <span class="rm"><%= t'.premium_pricing' %></span>
+                        <span class="amount"><%= t'.premium_pricing2' %></span>
+                        <span class="per-year"><%= t'.premium_pricing3' %></span>
+                    </div>
+                    <div class="premium-item">
+                        <span class="pr-one"><%= t'.premium_items' %></span>
+                        <span class="pr-two"><%= t'.premium_items2' %></span>
+                        <span class="pr-three"><%= t'.premium_items3' %></span>
+                        <span class="pr-four"><%= t'.premium_items4' %></span>
+                        <span class="pr-five"><%= t'.premium_items5' %></span>
+                        <span class="pr-six"><%= t'.premium_items6' %></span>
+                    </div>
+                    <div class="premium-button">
+                        <%= link_to t('.product_plan_button'), contact_path, class: "go-orange" %>
+                    </div>
+                </div>
+            </div>
+            <div class="product4-innerchild three">
+                <div class="product4-plan platinum">
+                    <div class="platinum-title">
+                        <%= t'.platinum_title' %>
+                    </div>
+                    <div class= "platinum-ribbon">
+                        <%= t '.platinum_ribbon' %>
+                    </div>
+                    <div class="platinum-pricing">
+                        <span class="rm"><%= t'.platinum_pricing' %></span>
+                        <span class="amount"><%= t'.platinum_pricing2' %></span>
+                    </div>
+                        <span class="per-year" id="otp"><%= t'.platinum_pricing3' %></span>
+                        
+                    <div class="platinum-item">
+                        <span class="pl-one"><%= t'.platinum_items' %></span>
+                        <span class="pl-two"><%= t'.platinum_items2' %></span>
+                        <span class="pl-three"><%= t'.platinum_items3' %></span>
+                        <span class="pl-four"><%= t'.platinum_items4' %></span>
+                        <span class="pl-five"><%= t'.platinum_items5' %></span>
+                        <span class="pl-six"><%= t'.platinum_items6' %></span>
+                        <span class="pl-seven"><%= t'.platinum_items7' %></span>
+                        <span class="pl-eight"><%= t'.platinum_items8' %></span>
+                    </div>
+                    <div class="platinum-button">
+                        <%= link_to t('.product_plan_button'), contact_path, class: "go-purple" %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- This will be hidden. Temporary remove, will be back soon
+<div class="product-container5">
+    <div class="product5-child one">
+        <div class="product5-subchild one">
+        </div>
+        <div class="product5-subchild two">
+            <a class="product5-link" href="/pdfs/ConnectY_Product_Packages.pdf" target="_blank"><%= t'.product_container5_link' %> &nbsp;<i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+    </div>
+</div>
+-->

@@ -1,44 +1,17 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   "true": "foo"
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
   locales:
-    en: "English"
-    bm: "Malay"
-    cn: "Chinese"
+    en: "en"
+    bm: "bm"
+    cn: "cn"
   pages:
     navbar:
       mail: "info@appgenter.com"
+    flash:
+      success: "Form has been submitted successfully!"
+      danger: "Please key in all of the details!"
+      danger_api: "Internal server error! Please submit the form later again"
     menubar:
-      menu_link1: "AppGenter"
+      menu_link1: "APPGENTER"
       menu_link2: "Products"
       menu_link3: "Projects"
       menu_link4: "Contact Us"
@@ -61,7 +34,7 @@ en:
       section2_text6: "Management of personnel with shift, overtime and public holiday settings, customization upon HR policy into system to fit in various circumstances."
       section3_about: "About Us"
       section3_title: "Humanizing and embracing technology, knowledge and innovation for a better way of life."
-      section3_desc: "TwentyEight IT Solutions is incorporated and designed to provide businesses with competitive edge by supporting access to business information, with the top professionals in Artificial Intelligence (AI), Internet of Things (IoT), and Big Data in Fintech and Mobile Technologies. Our AppGenter solutions comprises of proven business methodologies for businesses to remain in contact while the whole world is in the period of Social Distancing and Contactless."
+      section3_desc: "APPGENTER LIMITED is incorporated and designed to provide businesses with competitive edge by supporting access to business information, with the top professionals in Artificial Intelligence (AI), Internet of Things (IoT), and Big Data in Fintech and Mobile Technologies. Our APPGENTER solutions comprises of proven business methodologies for businesses to remain in contact while the whole world is in the period of Social Distancing and Contactless."
       section4_product: "Our Products"
       section4_title: "Digitalize Your Business With Us"
       section5_clients: "Clients Worldwide"
@@ -69,6 +42,75 @@ en:
       section5_countries: "Countries"
       section6_title: "Let's Get in Touch"
       section6_desc: "We're here to help and always happy to hear from you. Do contact us using the form."
+    products:
+      product_container_title: "We provide various"
+      product_container_title2: "kinds of"
+      product_container_title3_span: "services"
+      product_container_title4: "for you"
+      product_subtwo_title: "User App and Merchant app"
+      product_subtwo_title2: "(iOS & Android)"
+      product_subtwo_title3: "Technical Maintenance and Support"
+      product_subtwo_title4: "Cloud Hosting at Reliable Environment"
+      product_subtwo_title5: "Backend System"
+      product_subtwo_title6: "Marketing Support"
+      product_subtwo_title7: "Data Analytics"
+      product_container2_title: "Flash Sales"
+      product_container2_desc: "Create flash sales to increase traffic"
+      product_container2_title2: "Loyalty Programs"
+      product_container2_desc2: "Voucher feature that remain your customer’s loyalty Point redemption and exclusive deals that create user’s interest"
+      product_container2_title3: "APPGENTER Smart Community"
+      product_container2_desc3: "Connect every merchant on board Seamless"
+      product_container2_title4: "Gamification"
+      product_container2_desc4: "Gets your customer involved and get them interested"
+      product_container3_title: "Product & Service Listings"
+      product_container3_desc: "Detailed listing that allow customers to search at ease. Improve customer’s experience and satisfaction"
+      product_container3_title2: "Push Notifications"
+      product_container3_desc2: "Easily remind customers about your marketing campaigns at the optimal time Businesses are even closer to facilitating direct interaction with customers"
+      product_container3_title3: "Corporate Identity"
+      product_container3_desc3: "Create, accept and approve booking/appointment at all times. Update service/ staff’s availability"
+      product_container3_title4: "Booking & Appointments"
+      product_container3_desc4: "Customized colours, fonts to match with your company identity. Creative design that will bring your ideas to life"
+      product_plan_title: "Choose the"
+      product_plan_title2_span: "Right Plan"
+      product_plan_title3: "for your business"
+      product_plan_desc: "An all-in-one app solution that is affordable and beneficial for your business"
+      starter_title: "Starter"
+      starter_pricing: "RM"
+      starter_pricing2: "3,650"
+      starter_pricing3: "Yearly"
+      starter_items: "Android APP"
+      starter_items2: "iOS APP"
+      starter_items3: "Merchant APP"
+      starter_items4: "Base Functions"
+      premium_title: "Premium"
+      premium_pricing: "RM"
+      premium_pricing2: "19,900"
+      premium_pricing3: "Yearly"
+      premium_items: "Android APP"
+      premium_items2: "iOS APP"
+      premium_items3: "Merchant APP"
+      premium_items4: "Base Functions"
+      premium_items5: "Sales/ Marketing Functions"
+      premium_items6: "Supports"
+      platinum_title: "Platinum"
+      platinum_ribbon: "Popular"
+      platinum_pricing: "RM"
+      platinum_pricing2: "35,900"
+      platinum_pricing3: "One Time Payment"
+      platinum_items: "Android APP"
+      platinum_items2: "iOS APP"
+      platinum_items3: "Merchant APP"
+      platinum_items4: "Base Functions"
+      platinum_items5: "Sales/ Marketing Functions"
+      platinum_items6: "Payment & Loyalty Program"
+      platinum_items7: "Supports"
+      platinum_items8: "Special Features"
+      product_plan_button: "Get Quote"
+      product_container5_link: "For More Details View Here"
+    projects:
+      project_title: "Our Latest Projects"
+      project_desc1: "17th Haemotology Annual Scientific Meeting"
+      project_desc2: "2020 TCE Baby Expo"
     contact_us:
       top_title: "Contact Us"
       top_desc: "Leave us a little info, and we’ll be in touch."
@@ -81,18 +123,20 @@ en:
       bottom_middle_desc_three: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
       bottom_right_title: "Social Links"
       c_ending: "Looking Forward To Meet You"
-      section6_title: "Let's Get in Touch"
+      section6_title: "Contact Us"
+      section6_title2: "Let's Get in Touch"
       section6_desc: "We're here to help and always happy to hear from you. Do contact us using the form."
     footer:
-      footer_left_heading: "TwentyEight IT Solutions Sdn Bhd."
-      footer_left_desc_one: "Menara Worldwide, Level 24 & 25 198, Jln Bukit Bintang,"
-      footer_left_desc_two: "Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur."
+      footer_left_heading: "APPGENTER LIMITED"
+      footer_left_desc_hk: "Room 1204A Tower 2, 12/F., Lippo Centre, 89 Queensway, Admiralty, Hong Kong"
+      footer_left_desc_one: "Menara Worldwide, Level 25,  198 Jln Bukit Bintang,"
+      footer_left_desc_two: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia"
       footer_middle_heading: "Quick Links"
-      footer_middle_desc1: "AppGenter"
+      footer_middle_desc1: "APPGENTER"
       footer_middle_desc2: "Products"
       footer_right_heading: "Work Enquiries"
       footer_right_desc: "info@appgenter.com"
-      footer_copyright: "© Copyright 2023 | TwentyEight IT Solutions Sdn Bhd"
+      footer_copyright: "© Copyright 2023 | APPGENTER LIMITED"
   activerecord:
     attributes:
       enquiry:

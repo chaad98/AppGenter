@@ -1,9 +1,12 @@
 <div class="footer-container">
-    <div class="footer-child one">
+    <div class="footer-child one" id= "left-address">
         <div class="footer-subchild left-one">
             <h3><%= t '.footer_left_heading' %></h3>
         </div>
         <div class="footer-subchild left-two">
+            <%= t '.footer_left_desc_hk' %>
+        </div>
+        <div class="footer-subchild left-three">
             <%= t '.footer_left_desc_one' %>
             <br>
             <span><%= t '.footer_left_desc_two' %><span>
@@ -15,8 +18,8 @@
                 <h3><%= t '.footer_middle_heading' %></h3>
             </div>
             <div class="footer-subchild middle-two">
-                <%= link_to t('.footer_middle_desc1'), "https://www.facebook.com/", class: "nav-link" %>
-                <%= link_to t('.footer_middle_desc2'), "https://www.instagram.com/", class: "nav-link" %>
+                <%= link_to t('.footer_middle_desc1'), root_path, class: "nav-link" %>
+                <%= link_to t('.footer_middle_desc2'), products_path, class: "nav-link" %>
             </div>
         </div>
     </div>

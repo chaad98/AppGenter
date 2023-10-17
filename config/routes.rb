@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     root "pages#landing_page"
+    get "products", to: "pages#products"
     get "contact", to: "pages#contact_us"
     resources :enquiries
   end

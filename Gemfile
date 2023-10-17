@@ -1,10 +1,13 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.2.2"
+ruby "3.1.3"
 
 gem 'sass-rails', '~> 6.0'
 gem 'bootstrap', '~> 5.3.1'
+
+# for JSON and HTTP Request post to API
+gem 'httparty'
 
 # The translation language
 gem 'i18n', '~> 1.14', '>= 1.14.1'

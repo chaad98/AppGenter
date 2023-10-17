@@ -1,0 +1,619 @@
+.product-container{
+    height: 500px;
+    padding: 5% 0% 5% 0%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-child{
+    width: 80%;
+    min-height: 500px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#prod-sub{
+    margin-bottom: 1.5%;
+}
+
+.product-subchild{
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-subchild.one{
+    text-align: center;
+    color: #000000;
+    font-size: 31px;
+    font-weight: 800;
+}
+
+.product-span{
+    color: #feae0e;
+}
+
+.product-subchild.two,
+.product-subchild.three{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.product-subtwo-inner,
+.product-subthree-inner{
+    width: 50%;
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+/* Add a media query for screens with a max-width of 991px */
+@media screen and (max-width: 991px) {
+    .product-container {
+        height: auto;
+    }
+
+    .product-child {
+        flex-direction: column; /* Display content in a vertical column */
+        width: 100%;
+    }
+
+    .product-subchild.two,
+    .product-subchild.three {
+        display: flex;
+        flex-direction: column; /* Display content in a vertical column */
+        align-items: center;
+        padding: 1% 0; /* Add some vertical spacing between items */
+    }
+}
+
+//section2
+.product-container2{
+    height: 500px;
+    padding: 5% 0% 5% 0%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product2-child{
+    width: 80%;
+    padding: 1%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product2-subchild{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product2-subone-inner,
+.product2-subtwo-inner{
+    width: 50%;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subone-title,
+.subtwo-title{
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+.subone-desc,
+.subtwo-desc{
+    color: #4A4A4A;
+    font-weight: 400;
+}
+
+/* Add a media query for screens with a max-width of 991px or smaller */
+@media screen and (max-width: 991px) {
+    .product-container2 {
+        height: auto; /* Remove fixed height for responsiveness */
+    }
+
+    .product2-child {
+        width: 100%; /* Make the content full width on smaller screens */
+    }
+
+    .product2-subchild {
+        flex-direction: column; /* Display content in a vertical column on smaller screens */
+        align-items: center; /* Center content horizontally */
+        text-align: center; /* Center text horizontally */
+        padding: 1% 0; /* Add some vertical spacing between items */
+    }
+
+    .product2-subone-inner,
+    .product2-subtwo-inner {
+        width: 100%; /* Make subitems full width on smaller screens */
+        padding: 2% 0; /* Adjust spacing for smaller screens */
+    }
+}
+
+//section3
+.product-container3{
+    height: 500px;
+    padding: 5% 0% 5% 0%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product3-child{
+    width: 80%;
+    padding: 1%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product3-subchild{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product3-subone-inner,
+.product3-subtwo-inner{
+    width: 50%;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subone-title,
+.subtwo-title{
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+.subone-desc,
+.subtwo-desc{
+    color: #4A4A4A;
+    font-weight: 400;
+}
+
+/* Add a media query for screens with a max-width of 991px or smaller */
+@media screen and (max-width: 991px) {
+    .product-container3 {
+        height: auto; /* Remove fixed height for responsiveness */
+    }
+
+    .product3-child {
+        width: 100%; /* Make the content full width on smaller screens */
+    }
+
+    .product3-subchild {
+        flex-direction: column; /* Display content in a vertical column on smaller screens */
+        align-items: center; /* Center content horizontally */
+        text-align: center; /* Center text horizontally */
+        padding: 1% 0; /* Add some vertical spacing between items */
+    }
+
+    .product3-subone-inner,
+    .product3-subtwo-inner {
+        width: 100%; /* Make subitems full width on smaller screens */
+        padding: 2% 0; /* Adjust spacing for smaller screens */
+    }
+}
+
+//section4
+.product-container4{
+    height: 850px;
+    padding: 5% 0% 5% 0%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product4-child{
+    width: 80%;
+    padding: 1%;
+    min-height: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product4-subchild{
+    font-family: 'Roboto', sans-serif;
+}
+
+.product4-subchild.one{
+    text-align: center;
+    color: #000000;
+    font-size: 31px;
+    font-weight: 800;
+}
+
+.product4-title{
+    color: #feae0e;
+}
+
+.product4-subchild.two{
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#prod4-sub-one,
+#prod4-sub-two{
+    margin-bottom: 1.5%;
+}
+
+.product4-subchild.three{
+    min-height: 650px;
+    display: flex;
+    flex-direction: row;
+}
+
+.product4-innerchild{
+    width: 50%;
+    padding: 0.5%;
+}
+
+.product4-plan{
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.product4-plan.starter{
+    min-height: 60%;
+    background-color: #02010100;
+    border-color: #0DCB7B;
+    color: #0DCB7B;
+}
+
+.product4-plan.premium{
+    min-height: 80%;
+    background-color: #02010100;
+    border-color: #FFBC3E;
+    color: #FFBC3E;
+}
+
+.product4-plan.platinum{
+    position: relative;
+    min-height: 100%;
+    background-color: #02010100;
+    border-color: #7912B8;
+    color: #7912B8;
+}
+
+.platinum-ribbon {
+    content: "Popular";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #7912B8;
+    color: #ffffff;
+    padding: 5px 10px;
+    transform: translateY(160%) rotate(45deg);
+    transform-origin: top right;
+    z-index: 1;
+}
+
+
+.starter-title{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.starter-pricing{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 57px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom of the container */
+    justify-content: center;
+}
+
+.rm{
+    font-size: calc(35em/100);
+    align-self: flex-start;
+}
+
+.amount {
+    font-size: 57px;
+    font-weight: 600;
+}
+
+.per-year{
+    font-size: 16px;
+    font-weight: 400;
+    color: #54595F;
+}
+
+.starter-item{
+    display: flex;
+    flex-direction: column;
+    color: #54595F;
+    margin-top: 5%;
+}
+
+.s-one,
+.s-two,
+.s-three,
+.s-four{
+    margin: 0 0 3% 23%;
+}
+
+.starter-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+}
+
+.go-green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #0DCB7B;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.premium-title{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.premium-pricing{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 57px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom of the container */
+    justify-content: center;
+}
+
+.rm{
+    font-size: calc(35em/100);
+    align-self: flex-start;
+}
+
+.amount {
+    font-size: 57px;
+    font-weight: 600;
+}
+
+.per-year{
+    font-size: 16px;
+    font-weight: 400;
+    color: #54595F;
+}
+
+.premium-item{
+    display: flex;
+    flex-direction: column;
+    color: #54595F;
+    margin-top: 10%;
+}
+
+.pr-one,
+.pr-two,
+.pr-three,
+.pr-four,
+.pr-five,
+.pr-six{
+    margin: 0 0 3% 23%;
+}
+
+.premium-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+}
+
+.go-orange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #FFBC3E;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.platinum-title{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.platinum-pricing{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 57px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom of the container */
+    justify-content: center;
+}
+
+.rm{
+    font-size: calc(35em/100);
+    align-self: flex-start;
+}
+
+.amount {
+    font-size: 57px;
+    font-weight: 600;
+}
+
+.per-year{
+    font-size: 16px;
+    font-weight: 400;
+    color: #54595F;
+}
+
+#otp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platinum-item{
+    display: flex;
+    flex-direction: column;
+    color: #54595F;
+    margin-top: 10%;
+}
+
+.pl-one,
+.pl-two,
+.pl-three,
+.pl-four,
+.pl-five,
+.pl-six,
+.pl-seven,
+.pl-eight{
+    margin: 0 0 3% 23%;
+}
+
+.platinum-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+}
+
+.go-purple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #7912B8;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Add a media query for screens with a max-width of 991px or smaller */
+@media screen and (max-width: 991px) {
+    .product-container4 {
+        height: auto; /* Remove fixed height for responsiveness */
+    }
+
+    .product4-child {
+        width: 100%; /* Make the content full width on smaller screens */
+    }
+
+    .product4-subchild.three {
+        flex-direction: column; /* Display content in a vertical column on smaller screens */
+        padding: 1% 0; /* Add some vertical spacing between items */
+    }
+
+    .product4-innerchild {
+        width: 100%; /* Make subitems full width on smaller screens */
+        padding: 2% 0; /* Adjust spacing for smaller screens */
+    }
+
+    .starter-button,
+    .premium-button,
+    .platinum-button {
+        margin-bottom: 3%;
+    }
+}
+
+//section5
+.product-container5{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product5-child{
+    width: 80%;
+    padding: 1%;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product5-subchild.one{
+    width: 70%;
+}
+
+.product5-subchild.two{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product5-link{
+    color: #6756FF;
+    text-decoration: none;
+}
+
+.product5-link:hover{
+    color: #6756FF;
+}
+
+/* Add a media query for screens with a max-width of 991px or smaller */
+@media screen and (max-width: 991px) {
+    .product-container5 {
+        height: auto; /* Remove fixed height for responsiveness */
+    }
+
+    .product5-child {
+        flex-direction: column; /* Display content in a vertical column on smaller screens */
+        align-items: center; /* Center content horizontally */
+    }
+
+    .product5-subchild.one {
+        width: 100%; /* Make the left section full width on smaller screens */
+        text-align: center; /* Center text horizontally */
+    }
+
+    .product5-subchild.two {
+        width: 100%; /* Make the right section full width on smaller screens */
+    }
+}
