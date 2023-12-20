@@ -70,11 +70,11 @@ Rails.application.configure do
 
   # config.action_mailer.delivery_method = :smtp
   # config.action_mailer.smtp_settings = {
-  #   address: 'smtp.mail.yahoo.com',
+  #   address: '',
   #   port: 587,
-  #   user_name: 'faritzchad@yahoo.com',
-  #   password: 'bhxwxpmfbsqjdeen',
-  #   authentication: 'plain',
+  #   user_name: '',
+  #   password: '',
+  #   authentication: '',
   #   enable_starttls_auto: true
   # }
   
